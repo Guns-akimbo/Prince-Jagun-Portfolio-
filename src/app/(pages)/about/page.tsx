@@ -4,11 +4,11 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <div>
+    <>
       <Header />
-      About page
+      <div className="  bg-[url('/images/frame7.svg')] bg-cover w-[100%] bg-no-repeat   opacity- h-[60vh]"></div>
       <Footer />
-    </div>
+    </>
   );
 };
 

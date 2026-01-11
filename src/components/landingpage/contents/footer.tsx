@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <section className="bg-[#0f3d2e] text-white py-12 px-6 cursor-pointer">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-start">
+      <div className="max-w-full lg:max-w-[95%] p-8 mx-auto grid md:grid-cols-2 gap-12 items-start">
         <div>
           <h2 className="text-4xl font-serif mb-4">Get in Touch</h2>
           <div className="border-t border-white/30 mb-6 w-full"></div>
@@ -67,7 +67,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-6xl mx-auto mt-8 flex justify-between items-center gap-6">
+      <div className="max-w-[90%] mx-auto mt-8 flex justify-between items-center gap-6">
         <div className="flex items-center">
           <div className="flex items-center gap-3">
             <Image
