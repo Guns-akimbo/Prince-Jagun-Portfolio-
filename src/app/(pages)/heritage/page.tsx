@@ -85,7 +85,7 @@ const HeritagePage = () => {
         </div>
         <div className=" flex justify-between md:flex-row flex-col h-50vh] ">
           <div className="flex">
-            <div className="absolute mt-10 relative w-[8.5rem] h-[23rem]">
+            <div className="absolute mt-10 relative md:w-[8.5rem] w-[5.5rem] h-[23rem]">
               <div className="absolute inset-0 bg-gradient-to-b from-[#D89B2D] to-[#F8F8F8]"></div>
 
               <div className="absolute bottom-0 left-0 top-[1.88px] right-[1.88px] bg-[#F8F8F8]"></div>
@@ -98,7 +98,7 @@ const HeritagePage = () => {
               </div>
             </div>
 
-            <div className="w-6/12  pt-4 md:ml-30 ml-15 mt-10 ">
+            <div className="w-6/12  pt-4 md:ml-30 ml-10 mt-10 ">
               <ul className="list-none space-y-4   ">
                 <li className=" md:text-2xl text-sm font-normal">
                   Otunba Apesinola of Oke-Eri, Ijebu Ode
@@ -115,8 +115,8 @@ const HeritagePage = () => {
               </ul>
             </div>
           </div>
-          <div className="w-4/12 py-2">
-            <div className="h-4/5 w-[390px] rounded-md">
+          <div className="md:w-4/12 w-full py-2">
+            <div className="h-4/5 md:w-[390px] w-10/12 rounded-md">
               <Image
                 src="/images/heritage2.png"
                 alt="Prince seated on throne"
@@ -128,13 +128,198 @@ const HeritagePage = () => {
           </div>
         </div>
         <div>
-          <p className="text-lg font-normal text-justify p-16">
+          <p className="text-lg font-normal text-justify px-16 pt-5">
             He is also an honorary member of the Bobamayegun Okunrin Asiwaju
             Akile Ijebu, reinforcing his continued involvement in cultural
             leadership and grassroots advocacy. His life represents a balance of
             heritage, academic achievement, and professional dedication, guided
             by a deep respect for family, culture, and community.
           </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          {" "}
+          <h1 className="text-xl md:text-4xl font-serif font-bold text-teal-900 mb-4 text-center">
+            Family Dignitaries
+          </h1>
+          <p className="text-base md:text-lg text-justify px-16 pb-16">
+            he Jagun family legacy extends through respected figures who have
+            contributed to leadership, governance, and cultural life across
+            Yorubaland.
+          </p>
+        </div>
+        <div className="px-16 pb-10 flex items-center md:justify-around  gap-8 flex-col md:flex-row">
+          <div className="md:w-[504px] md:w-h-[319px] w-full">
+            <Image
+              src="/images/heritage3.png"
+              alt="Prince seated on throne"
+              className="w-full  object-cover rounded-2xl "
+              width={700}
+              height={100}
+            />
+          </div>
+          <div className="text-[#0F3D2E] Family">
+            {/* Title */}
+            <h2 className="text-xl font-semibold">
+              Notable Family Dignitaries
+            </h2>
+
+            {/* Item */}
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="text-yellow-500">👑</span>
+                <h3 className="font-semibold">Chief Bayo Aremu</h3>
+              </div>
+              <div className="pl-6 space-y-1 text-sm">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Great Uncle</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Double Otunba of Iwo and Shagamu (Late)</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Item */}
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="text-yellow-500">👑</span>
+                <h3 className="font-semibold">Justice Aremu</h3>
+              </div>
+              <div className="pl-6 space-y-1 text-sm">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Great Uncle</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Junior brother to Chief Bayo Aremu</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Baamofin of Ede (Late)</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="text-yellow-500">👑</span>
+                <h3 className="font-semibold">Chief Ayo Aremu</h3>
+              </div>
+              <div className="pl-6 space-y-1 text-sm">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Uncle</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Son of Chief Bayo Aremu</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Baamofin of Iwo</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="text-yellow-500">👑</span>
+                <h3 className="font-semibold">Dr. Shola Obada</h3>
+              </div>
+              <div className="pl-6 space-y-1 text-sm">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Mother’s cousin</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Erelu of Ijeshaland</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Item */}
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="text-yellow-500">👑</span>
+                <h3 className="font-semibold">Dr. Bisi Jagun</h3>
+              </div>
+              <div className="pl-6 space-y-1 text-sm">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Father’s half-sister</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Chief of Ikomodu</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Item */}
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="text-yellow-500">👑</span>
+                <h3 className="font-semibold">Dr. Mary Boyd</h3>
+              </div>
+              <div className="pl-6 space-y-1 text-sm">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Younger sister</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Yeye Maiyegun of Orile Igbon</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Item */}
+            <div className="space-y-2">
+              <div className="flex items-center gap-2">
+                <span className="text-yellow-500">👑</span>
+                <h3 className="font-semibold">Prince Adedotun Jagun</h3>
+              </div>
+              <div className="pl-6 space-y-1 text-sm">
+                <div className="flex items-center gap-2">
+                  <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
+                  <p>Otunba Shobaloju of Orile Igbon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="fit bg-gray-100 p-8 md:p-16">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div className="space-y-4">
+              <h2 className="text-2xl md:text-5xl font-serif text-emerald-900 leading-tight">
+                Heritage as Responsibility
+              </h2>
+
+              <p className="text-sm md:text-xl text-gray-700 leading-relaxed">
+                For Prince Adedotun, heritage is not symbolic, it is lived. It
+                shapes how he leads, serves, and builds for future generations.
+                Through enterprise, cultural stewardship, and community
+                engagement, he continues a legacy defined by purpose, dignity,
+                and progress.
+              </p>
+            </div>
+
+            <Image
+              src="/images/heritage5.png"
+              alt="Prince seated on throne"
+              className="w-full object-cover rounded-2xl "
+              width={500}
+              height={50}
+            />
+          </div>
         </div>
       </div>
       <Footer />
