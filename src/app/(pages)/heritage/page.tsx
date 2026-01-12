@@ -1,3 +1,4 @@
+"use client";
 import Footer from "@/components/landingpage/contents/footer";
 import Header from "@/components/landingpage/navigations /header";
 import Image from "next/image";
@@ -7,7 +8,7 @@ const HeritagePage = () => {
   return (
     <div className="bg-[#F8F8F8]">
       <Header />
-      <div className="min-h-fit bg-[#0F3D2E] text-white px-16 pt-16 relative overflow-hidden rounded-bl-[300px] ">
+      <div className="min-h-fit bg-[#0F3D2E] text-white px-16 pt-16 relative overflow-hidden rounded-bl-[300px] animate-fade-slide-in">
         <div className="absolute right-[-5%] top-[12%] w-50 h-50 border-30 border-white/5 rounded-full pointer-events-none"></div>
         <div className="absolute left-[-10%] top-[20%] w-100 h-100 border-60 border-white/5 rounded-full pointer-events-none"></div>
 
@@ -72,7 +73,7 @@ const HeritagePage = () => {
           </div>
         </div>
       </div>
-      <div className=" py-16 gap-y-8 h-fit ">
+      <div className="py-16 gap-y-8 h-fit animate-fade-slide-in delay-150">
         <div className="space-y-6 mb-8 px-16">
           <h3 className="font-bold md:text-4xl text-lg text-teal-700 text-center font-serif ">
             Civic Engagement & Traditional Roles
@@ -137,7 +138,7 @@ const HeritagePage = () => {
           </p>
         </div>
       </div>
-      <div>
+      <div className="animate-fade-slide-in delay-300">
         <div>
           {" "}
           <h1 className="text-xl md:text-4xl font-serif font-bold text-teal-900 mb-4 text-center">
@@ -295,7 +296,7 @@ const HeritagePage = () => {
           </div>
         </div>
       </div>
-      <div className="fit bg-gray-100 p-8 md:p-16">
+      <div className="fit bg-gray-100 p-8 md:p-16 animate-fade-slide-in delay-500">
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
             <div className="space-y-4">
@@ -323,6 +324,30 @@ const HeritagePage = () => {
         </div>
       </div>
       <Footer />
+      <style jsx global>{`
+        @keyframes fade-slide-in {
+          from {
+            opacity: 0;
+            transform: translateY(40px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        .animate-fade-slide-in {
+          animation: fade-slide-in 0.9s cubic-bezier(0.4, 0, 0.2, 1) both;
+        }
+        .delay-150 {
+          animation-delay: 0.15s;
+        }
+        .delay-300 {
+          animation-delay: 0.3s;
+        }
+        .delay-500 {
+          animation-delay: 0.5s;
+        }
+      `}</style>
     </div>
   );
 };

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Nav from "./nav";
+import MobileNav from "./mobileNav";
 // import Nav from "./nav";
 
 const Header = () => {
@@ -23,7 +24,9 @@ const Header = () => {
           <Nav />
         </div>
 
-        <div className="lg:hidden">{/* <MobileNav /> */}</div>
+        <div className="lg:hidden">
+          <MobileNav />
+        </div>
       </div>
     </header>
   );
