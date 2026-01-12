@@ -74,24 +74,27 @@ export default function VenturesSection() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8 }}
-        className="py-20 px-6"
+        className=""
       >
-        <div className="max-w-[89%] mx-auto grid md:grid-cols-2 gap-52 items-center">
+        <div className="md:max-w-[90%] w-full mx-auto grid md:grid-cols-2 grid-cols-1 gap-y-6 md:gap-x-6 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.2 }}
+            className="p-6"
           >
-            <h3 className="text-5xl font-serif mb-4">Fidipote Food Market</h3>
-            <p className="text-gray-700 mb-4">
+            <h3 className="md:text-5xl text-2xl font-serif mb-4">
+              Fidipote Food Market
+            </h3>
+            <p className="text-gray-700 mb-4 text-sm md:text-base">
               Fidipote Food Market focuses on farming, food sourcing, and the
               distribution of fresh agricultural produce to local and
               international markets. The venture is built on a simple principle:
               nutritious food should be accessible, affordable, and sustainably
               produced.
             </p>
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 mb-6 text-sm md:text-base">
               By working closely with farmers and streamlining supply chains,
               Fidipote Food Market supports local agriculture while improving
               food availability for households and communities.
@@ -111,7 +114,7 @@ export default function VenturesSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className=" rounded-xl h-180 w-170 p-6 "
+            className=" rounded-xl md:h-180 md:w-170 w-full h-100 p-2 "
           >
             <Image
               src="/images/frame5.jpg"
@@ -129,15 +132,15 @@ export default function VenturesSection() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8 }}
-        className="bg--500 py-20 px-6"
+        className=""
       >
-        <div className="max-w-[90%] mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-[90%] mx-auto grid md:grid-cols-2 grid-cols-1 gap-y-6 gap-x-6 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="order-2 md:order-1  h-180 w-170  rounded-xl p-6"
+            className="order-2 md:order-1  md:h-180 md:w-170 w-full h-100 rounded-xl p-2 "
           >
             <Image
               src="/images/frame6.jpg"
@@ -153,15 +156,15 @@ export default function VenturesSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="order-1 md:order-2"
+            className="order-1 md:order-2 pl-4"
           >
-            <h3 className="text-5xl font-serif mb-8">
+            <h3 className="md:text-5xl text-2xl font-serif mb-8">
               Fidipote Royalty Limited
             </h3>
-            <p className="text-gray-700 mb-4">
+            <p className="text-gray-700 mb-4 text-sm md:text-base">
               Fidipote Royalties is the real estate and property development arm
-              under Prince Adedotun's leadership. The venture focuses on land
-              management, residential development, and community-oriented
+              under Prince Adedotun&#39;s leadership. The venture focuses on
+              land management, residential development, and community-oriented
               projects that respect cultural heritage while embracing modern
               planning standards.
             </p>
