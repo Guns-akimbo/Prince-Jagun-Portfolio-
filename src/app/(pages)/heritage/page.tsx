@@ -285,8 +285,8 @@ const HeritagePage = () => {
           </div>
         </div>
       </div>
-      <div className="fit bg-gray-100 p-8 md:p-16 animate-fade-slide-in delay-500">
-        <div className="lg:max-w-[85%] max-w-full mx-auto h-159 lg:h-[60vh]">
+      <div className="h-fit bg-gray-100 p-8 md:p-16 animate-fade-slide-in delay-500">
+        <div className="lg:max-w-[85%] max-w-full mx-auto">
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center justify-between ">
             <div className="space-y-4 w-full lg:w-1/2">
               <h2 className="text-2xl md:text-5xl font-serif text-emerald-900 leading-tight">
