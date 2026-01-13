@@ -62,7 +62,7 @@ const CarouselSection = () => {
                 key={index}
                 className="pl-2 md:pl-4 md:basis-1/2 lg:basis-1/3"
               >
-                <Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 w-[400px] ">
+                <Card className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 w-100 ">
                   <CardContent className="p-0 cursor-pointer group ">
                     <div className="relative overflow-hidden rounded-lg w-full h-full">
                       <img

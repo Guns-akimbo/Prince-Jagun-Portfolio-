@@ -1,5 +1,4 @@
 import Header from "@/components/landingpage/navigations /header";
-import PrinceProfile from "@/components/landingpage/contents/herosection";
 import HeroSection from "@/components/landingpage/contents/herosection";
 import AboutSection from "@/components/landingpage/contents/aboutsection";
 import Ventures from "@/components/landingpage/contents/ventures";
@@ -11,7 +10,6 @@ export default function Home() {
   return (
     <div className="font-sans  ">
       <Header />
-      {/* <PrinceProfile /> */}
       <HeroSection />
       <AboutSection />
       <Ventures />

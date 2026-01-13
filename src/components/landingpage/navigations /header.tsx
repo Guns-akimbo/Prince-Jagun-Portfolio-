@@ -3,11 +3,10 @@ import Link from "next/link";
 import React from "react";
 import Nav from "./nav";
 import MobileNav from "./mobileNav";
-// import Nav from "./nav";
 
 const Header = () => {
   return (
-    <header className="py-4 lg:py-1  p-4 ">
+    <header className="fixed top-0 left-0 right-0 z-50 py-4 lg:py-1 p-4 h-20 flex items-center justify-center bg-white/95 backdrop-blur-sm border-b border-gray-100 shadow-sm">
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" prefetch={false}>
           <Image

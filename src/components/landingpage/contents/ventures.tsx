@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 const Ventures = () => {
   return (
-    <main className="w-full bg-[#F8F8F8] px-6 md:px-8 py-16">
+    <main className="w-full bg-[#F8F8F8] px-6 md:px-8 py-16 overflow-x-hidden">
       <div className="max-w-410 mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}

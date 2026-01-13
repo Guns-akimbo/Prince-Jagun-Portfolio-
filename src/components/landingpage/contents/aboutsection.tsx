@@ -5,7 +5,7 @@ import Image from "next/image";
 const AboutSection = () => {
   return (
     <section className="relative">
-      <div className="bg-white relative">
+      <div className="bg-white relative overflow-x-hidden">
         <div className="container mx-auto px-6 py-16 lg:py-24">
           <div className="grid lg:grid-cols-2 gap-12 items-center ml-3 ">
             {/* Throne Portrait */}

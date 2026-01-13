@@ -5,8 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
-import { IoClose } from "react-icons/io5";
-import { Sheet, SheetContent, SheetTrigger } from "../../ui/sheet";
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "../../ui/sheet";
 import Image from "next/image";
 
 const MobileNav = () => {
@@ -15,32 +14,38 @@ const MobileNav = () => {
 
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
-      <SheetTrigger className="flex justify-center items-center">
-        <CiMenuFries className="text-[32px] text-black" />
+      <SheetTrigger className="flex justify-center items-center p-2 hover:bg-gray-100 rounded-md transition-colors duration-200">
+        <CiMenuFries className="text-[28px] text-black" />
       </SheetTrigger>
-      <SheetContent className="flex flex-col gap-6 p-0 bg-white backdrop-blur-xl rounded-2xl shadow-2xl border-none animate-slide-in overflow-hidden min-h-[80vh]">
-        <nav className="flex flex-col justify-center gap-8 bg-white">
-          <header className="border-b-2 bo">
-            <Image
-              priority
-              quality={100}
-              width={60}
-              height={10}
-              alt="logo"
-              className="object-contain mx-4"
-              src="/images/logo.jpg"
-            />
-          </header>
+      <SheetContent
+        side="right"
+        className="flex flex-col gap-0 p-0 bg-white/95 backdrop-blur-xl shadow-2xl border-none overflow-hidden w-80 sm:max-w-80"
+      >
+        <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
+
+        <div className="p-6 border-b border-gray-100 bg-white">
+          <Image
+            priority
+            quality={100}
+            width={60}
+            height={60}
+            alt="logo"
+            className="object-contain"
+            src="/images/logo.jpg"
+          />
+        </div>
+
+        <nav className="flex flex-col py-6 bg-white">
           {navlinks.map((link, idx) => (
             <Link
               href={link.path}
               key={idx}
               onClick={() => setIsOpen(false)}
-              className={`px-6 py-2 rounded-xl text-lg font-semibold capitalize transition-all duration-200 w-full text-justify
+              className={`px-6 py-4 text-lg font-medium capitalize transition-all duration-300 border-b border-gray-50 last:border-b-0 hover:bg-gray-50 hover:pl-8
                 ${
                   pathname === link.path
-                    ? "text-[#013524] font-bold"
-                    : "text-[#010302] hover:bg-amber-50 hover:text-amber-600"
+                    ? "text-white font-semibold bg-[#123f35] border-l-4 border-l-[#D89B2D] pl-8"
+                    : "text-[#010302] hover:text-[#D89B2D]"
                 }
               `}
             >
@@ -48,22 +53,13 @@ const MobileNav = () => {
             </Link>
           ))}
         </nav>
+
+        <div className="mt-auto p-6 border-t border-gray-100 bg-gray-50">
+          <p className="text-sm text-gray-600 text-center">
+            © 2026 Prince Jagun
+          </p>
+        </div>
       </SheetContent>
-      <style jsx global>{`
-        @keyframes slide-in {
-          from {
-            transform: translateY(100%);
-            opacity: 0;
-          }
-          to {
-            transform: translateY(0);
-            opacity: 1;
-          }
-        }
-        .animate-slide-in {
-          animation: slide-in 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-        }
-      `}</style>
     </Sheet>
   );
 };

@@ -1,12 +1,10 @@
 "use client";
-
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Heritage = () => {
   return (
-    <main className="w-full bg-[#F8F8F8] px-6 md:px-8 py-16">
+    <main className="w-full bg-[#F8F8F8] px-6 md:px-8 py-16 overflow-x-hidden">
       <div className="max-w-410 mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
@@ -41,7 +39,7 @@ const Heritage = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 flex justify-center items-center p-4 lg:p-8 h-100">
-            <div className="w-full max-w-md lg:max-w-none lg:w-[497px] rounded-md  bg--500 ">
+            <div className="w-full max-w-md lg:max-w-none lg:w-124.25 rounded-md  bg--500 ">
               <div className="flex flex-col items-center justify-center p-10 min-h-full ">
                 {/* Main Container */}
                 <div className="relative group cursor-pointer bg-black w-full">
@@ -60,12 +58,7 @@ const Heritage = () => {
                         className="w-64 h-80 object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
-                    {/* {title && ( */}
-                    <p className="mt-4 text-center font-mono font-bold text-black uppercase tracking-widest">
-                      {/* {title} */}
-                      hello
-                    </p>
-                    {/* )} */}
+                   
                   </div>
                 </div>
               </div>
