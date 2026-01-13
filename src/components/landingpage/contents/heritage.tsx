@@ -1,21 +1,55 @@
 "use client";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Heritage = () => {
   return (
-    <main className="w-full bg-[#F8F8F8] px-6 md:px-8 py-16 overflow-x-hidden">
+    <main className="w-full bg-[#F8F8F8] px-6 md:px-8 py-8 overflow-x-hidden">
       <div className="max-w-410 mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-5xl font-serif font-bold text-[#0F3D2E] text-center mb-8"
+          className="text-3xl md:text-5xl font-serif font-bold text-[#0F3D2E] text-center"
         >
           Heritage & Titles
         </motion.h2>
+        <div className="grid md:grid-cols-2 md:gap-x-12 gap-y-0 items-center max-w-6xl mx-auto">
+          {/* Image Section */}
+          <div className=" w-fit ">
+            <Image
+              src="/images/heritage3.png"
+              alt="Prince seated on throne"
+              className=" h-100 lg:h-190 w-full  object-contain rounded-2xl "
+              width={100}
+              height={50}
+            />
+          </div>
 
+          {/* Text Section */}
+          <div className="text-gray-700 text-lg leading-relaxed mb-5">
+            <p className="mb-6">
+              Prince Otunba Adedotun Adebola Babatunde Jagun holds respected
+              traditional titles across Ogun State and remains actively engaged
+              in cultural leadership and grassroots advocacy within Ijebu land.
+            </p>
+
+            <p className="mb-10">
+              His titles includes the Otunba Shobaloju of Orile-Igboore, Otunba
+              Apesinola of Oke-Eri, Ijebu Ode, Otun-Asiwaju of Ibiade, Ogun
+              Waterside and others.
+            </p>
+
+            <a
+              href="#"
+              className="text-amber-600 underline underline-offset-4 font-medium hover:text-amber-700 transition text-right "
+            >
+              View Titles &amp; Lineage
+            </a>
+          </div>
+        </div>
         <motion.section
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -58,7 +92,6 @@ const Heritage = () => {
                         className="w-64 h-80 object-cover transition-transform duration-500 group-hover:scale-105"
                       />
                     </div>
-                   
                   </div>
                 </div>
               </div>
