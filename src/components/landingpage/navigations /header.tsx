@@ -15,8 +15,8 @@ const Header = () => {
             width={70}
             height={10}
             alt="emerie"
-            className="object-contain"
-            src="/images/logo.jpg"
+            className="object-contain "
+            src="/Logo.png"
           />
         </Link>
         <div className="hidden lg:flex items-center gap-8">

@@ -41,7 +41,18 @@ const Contact = () => {
     <main className="w-full text-[#143b2f] overflow-x-hidden">
       <Header />
       <section className="relative bg-[#123f35] text-white h-100 lg:h-135 flex flex-col justify-center items-center px-6 mb-8">
-        <div className="absolute inset-0 bg-[url('/images/contact-bg.jpg')] bg-cover bg-no-repeat  bg-center opacity-14" />
+        <div className="absolute inset-0 opacity-14">
+          <Image
+            src="/images/contact-bg.jpg"
+            alt="Contact background"
+            fill
+            className="object-cover object-center"
+            loading="lazy"
+            quality={75}
+            placeholder="blur"
+            blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R+Cc5xmTb2O4WW3AhMvEhIHJ9DzThd+DRJnJaxZJf/Z"
+          />
+        </div>
         <div className="relative w-full text-center space-y-8 h-full flex flex-col justify-end items-center ">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -69,20 +80,21 @@ const Contact = () => {
 
       <div>
         <motion.section
-          initial={{ opacity: 0, y: 50 }}
+          initial={{ opacity: 0.1, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.3 }}
-          transition={{ duration: 0.8 }}
+          viewport={{ once: true, amount: 0.1 }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
           className=""
         >
           <div className="lg:max-w-[90%] w-full mx-auto px-6 md:px-8 grid md:grid-cols-2 grid-cols-1 gap-8 md:gap-36 items-center mb-8 bg--400">
             {" "}
             <motion.div
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0.1, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.3 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="p-6 border-2  border-gray-200 rounded-xl md:mr-6 md:mb-0 mb-6"
+              viewport={{ once: true, amount: 0.1 }}
+              transition={{ duration: 0.4, ease: "easeOut" }}
+              className="p-6 border-2 border-gray-200 rounded-xl md:mr-6 md:mb-0 mb-6 bg-white shadow-sm"
+              style={{ backgroundColor: 'white', minHeight: 'auto' }}
             >
               <form onSubmit={handleSubmit} method="POST" className="space-y-5">
                 <h3 className="text-2xl font-semibold mb-4 font-Cormorant Garamond">
@@ -139,9 +151,13 @@ const Contact = () => {
                   <Image
                     src="/images/contact2.jpg"
                     alt="Fidipote Food Market"
-                    className="rounded-lg w-full h-full"
+                    className="rounded-lg w-full h-full object-cover"
                     width={800}
                     height={400}
+                    loading="lazy"
+                    quality={80}
+                    placeholder="blur"
+                    blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R+Cc5xmTb2O4WW3AhMvEhIHJ9DzThd+DRJnJaxZJf/Z"
                   />
                 </div>
                 <div className="h-4/6 space-y-4">
@@ -174,7 +190,7 @@ const Contact = () => {
         </motion.section>
       </div>
 
-      <div className="max-w-[90%] mx-auto mt-8 flex flex-col   gap-3 mb-20">
+      <div className="max-w-[90%] mx-auto mt-8 flex flex-col gap-3 mb-20">
         <p className="text-xl">Socials</p>
         <div className="flex items-center gap-6">
           <a
