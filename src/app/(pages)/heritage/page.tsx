@@ -32,13 +32,14 @@ const HeritagePage = () => {
 
           <div className="flex flex-col-reverse md:flex-row gap-20">
             <div className="flex justify-center md:w-1/3 w-full  ">
-              <div className="relative">
+              <div className="relative ">
                 <Image
                   src="/images/heritage1.jpg"
                   alt="Prince seated on throne"
                   className="w-full h-150 object-cover rounded-2xl -mb-12.5 "
                   width={700}
-                  height={100}
+                  height={700}
+                  priority
                 />
               </div>
             </div>
@@ -77,26 +78,26 @@ const HeritagePage = () => {
           Civic Engagement & Traditional Roles
         </h3>
         <div className="space-y  mt-4 lg:mt-14 flex flex-col md:flex-row items-center justify-center  ">
-          <div className="w-full   lg:w-1/2">
+          <div className="w-full lg:w-1/2">
             <p className="text-base lg:text-xl font-normal text-justify px-8 lg:px-16 pt-5 w-full lg:max-w-4xl">
               A bonafide member of the Fidipote Ruling House, Prince Adedotun
               holds several respected traditional titles reflecting leadership
               and service across communities
             </p>
-            <p className="text-base font-normal text-justify lg:text-xl   px-8 lg:px-16 pt-5 max-w-4xl">
+            <p className="text-base font-normal text-justify lg:text-xl  px-8 lg:px-16 pt-5 max-w-4xl">
               He is also an honorary member of the Bobamayegun Okunrin Asiwaju
               Akile Ijebu, reinforcing his continued involvement in cultural
               leadership and grassroots advocacy. His life represents a balance
               of heritage, academic achievement, and professional dedication,
               guided by a deep respect for family, culture, and community.
             </p>
-            <div className="flex mt-20 ">
+            <div className="flex mt-20">
               <div className="mt-10 relative md:w-38 w-22 h-92">
                 <div className="absolute inset-0 bg-gradient-to-b from-[#D89B2D] to-[#F8F8F8]"></div>
 
                 <div className="absolute bottom-0 left-0 top-[1.88px] right-[1.88px] bg-[#F8F8F8]"></div>
 
-                <div className="relative z-10 bg--500">
+                <div className="relative z-10 ">
                   <div className="h-6 w-6 rounded-full bg-[#0F3D2E] relative lg:left-[90%] left-[85%] my-5 md:my-10"></div>
                   <div className="h-6 w-6 rounded-full bg-[#0F3D2E] relative lg:left-[90%] left-[85%]  my-9 md:my-12"></div>
                   <div className="h-6 w-6 rounded-full bg-[#0F3D2E] relative lg:left-[90%] left-[85%]  my-6 md:my-14"></div>
@@ -104,7 +105,7 @@ const HeritagePage = () => {
                 </div>
               </div>
 
-              <div className="w-9/12 pt-4 ml-10 mt-5 lg:mt-10 ">
+              <div className="w-9/12 pt-4 ml-8 mt-5 lg:mt-10 ">
                 <ul className="list-none lg:space-y-12 space-y-10  ">
                   <li className=" md:text-xl text-sm font-normal mt-4">
                     Otunba Apesinola of Oke-Eri, Ijebu Ode
@@ -130,6 +131,7 @@ const HeritagePage = () => {
               className=" h-140 lg:h-190 w-full lg:w-2/3  object-cover rounded-2xl "
               width={700}
               height={100}
+              priority
             />
           </div>
         </div>
@@ -145,7 +147,7 @@ const HeritagePage = () => {
             Yorubaland.
           </p>
         </div>
-        <div className="px-6 lg:px-16 pb-10 flex items-center md:justify-around  gap-8 flex-col md:flex-row bg--400">
+        <div className="px-6 lg:px-16 pb-10 flex items-center md:justify-around  gap-8 flex-col md:flex-row ">
           <div className="md:w-1/2 md:w-h-[319px] w-full ">
             <Image
               src="/images/tree.jpeg"
@@ -289,11 +291,11 @@ const HeritagePage = () => {
         <div className="lg:max-w-[85%] max-w-full mx-auto">
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center justify-between ">
             <div className="space-y-4 w-full lg:w-1/2">
-              <h2 className="text-2xl md:text-5xl font-serif text-emerald-900 leading-tight">
+              <h2 className="text-2xl md:text-5xl font-serif text-center text-emerald-900 leading-tight">
                 Heritage as Responsibility
               </h2>
 
-              <p className="text-sm md:text-xl text-gray-700 leading-relaxed">
+              <p className="text-base md:text-xl text-gray-700 leading-relaxed">
                 For Prince Adedotun, heritage is not symbolic, it is lived. It
                 shapes how he leads, serves, and builds for future generations.
                 Through enterprise, cultural stewardship, and community
@@ -309,6 +311,7 @@ const HeritagePage = () => {
                 className="w-full h-[90%] lg:h-full object-cover rounded-2xl"
                 width={200}
                 height={100}
+                priority
               />
             </div>
           </div>

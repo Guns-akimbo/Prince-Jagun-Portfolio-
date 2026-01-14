@@ -14,7 +14,7 @@ export default function VenturesSection() {
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6 }}
             className="text-4xl md:text-5xl font-serif text-[#d4a441] mb-8"
           >
@@ -24,7 +24,7 @@ export default function VenturesSection() {
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-3xl max-w-3xl mx-auto mb-12"
           >
@@ -34,7 +34,7 @@ export default function VenturesSection() {
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-base md:text-2xl text-white/80 w-full mx-auto"
           >
@@ -49,7 +49,7 @@ export default function VenturesSection() {
       <motion.section
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8 }}
         className="bg-[#D89B2D] w-full h-80 flex flex-col items-center justify-center "
       >
@@ -72,7 +72,7 @@ export default function VenturesSection() {
       <motion.section
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8 }}
         className=""
       >
@@ -80,7 +80,7 @@ export default function VenturesSection() {
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="p-6 "
           >
@@ -114,7 +114,7 @@ export default function VenturesSection() {
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.4 }}
             className=" rounded-xl md:h-180 md:w-270 w-full h-100 p-2 "
           >
@@ -132,7 +132,7 @@ export default function VenturesSection() {
       <motion.section
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: false, amount: 0.7 }}
+        viewport={{ once: false, amount: 0.3 }}
         transition={{ duration: 0.8 }}
         className=""
       >
@@ -140,7 +140,7 @@ export default function VenturesSection() {
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="order-2 md:order-1 rounded-xl md:h-180 md:w-170 w-full h-100 p-2 "
           >
@@ -155,7 +155,7 @@ export default function VenturesSection() {
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: false, amount: 0.7 }}
+            viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 1.2, ease: "easeInOut", delay: 0.4 }}
             className="order-1 md:order-2 pl-4 "
           >
