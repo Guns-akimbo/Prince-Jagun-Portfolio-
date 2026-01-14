@@ -5,11 +5,11 @@ import Image from "next/image";
 
 const HeritagePage = () => {
   return (
-    <div className="bg-[#F8F8F8]">
+    <main className="bg-[#F8F8F8]">
       <Header />
       <div className="min-h-fit bg-[#0F3D2E] text-white px-4 lg:px-16  pt-4 lg:pt-16 relative overflow-hidden rounded-bl-[200px] lg:rounded-bl-[300px] animate-fade-slide-in">
-        <div className="absolute right-[-5%] top-[12%] w-50 h-50 border-30 border-white/5 rounded-full pointer-events-none"></div>
-        <div className="absolute left-[-10%] top-[20%] w-100 h-100 border-60 border-white/5 rounded-full pointer-events-none"></div>
+        {/* <div className="absolute left-[-10%] top-[20%] w-100 h-100 border-60 border-white/5 rounded-full pointer-events-none"></div> */}
+        <div className="absolute left-[-72%] lg:left-[-13%] top-[15%] lg:top-[20%] w-100 h-100 border-60  border-white/5 rounded-full pointer-events-none"></div>
 
         <div className="mx-auto relative z-10  w-full mt-24 lg:mt-20">
           <div className="text-center mt-4 mb-12 flex flex-col items-center justify-center">
@@ -339,7 +339,7 @@ const HeritagePage = () => {
           animation-delay: 0.5s;
         }
       `}</style>
-    </div>
+    </main>
   );
 };
 

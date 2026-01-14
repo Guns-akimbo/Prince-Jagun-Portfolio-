@@ -10,7 +10,7 @@ export default function VenturesSection() {
       <Header />
       <section className="relative bg-[#123f35] text-white h-135 flex flex-col justify-center items-center px-6">
         <div className="absolute inset-0 bg-[url('/images/stock.jpg')] bg-cover bg-no-repeat bg-center opacity-" />
-        <div className="relative max-w-5xl text-center space-y-8 h-full flex flex-col mt-2 lg:mt-10 justify-center items-center">
+        <div className="relative max-w-7xl text-center space-y-8 h-full flex flex-col mt-2 lg:mt-10 justify-center items-center">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +36,7 @@ export default function VenturesSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.7 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-base md:text-lg text-white/80 max-w-4xl mx-auto"
+            className="text-base md:text-2xl text-white/80 w-full mx-auto"
           >
             Prince Otunba Adedotun Adebola Babatunde Jagun oversees ventures
             that address real needs—food security, land stewardship, and
@@ -51,7 +51,7 @@ export default function VenturesSection() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: false, amount: 0.7 }}
         transition={{ duration: 0.8 }}
-        className="bg-[#D89B2D] w-full h-70 flex flex-col items-center justify-center "
+        className="bg-[#D89B2D] w-full h-80 flex flex-col items-center justify-center "
       >
         <div className="max-w-[97%] h-full mx-auto  flex flex-col items-center justify-center bg-[#F8F8F8]">
           <div className="w-full lg:w-2/3 gap-4 flex flex-col  items-center justify-center ">

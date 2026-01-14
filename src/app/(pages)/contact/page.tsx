@@ -1,5 +1,4 @@
 "use client";
-import Footer from "@/components/landingpage/contents/footer";
 import Header from "@/components/landingpage/navigations /header";
 import Image from "next/image";
 import { motion } from "framer-motion";
@@ -15,7 +14,6 @@ const Contact = () => {
 
   useEffect(() => {
     if (state.succeeded) {
-      // Redirect to home page after 2 seconds
       const timer = setTimeout(() => {
         router.push("/");
       }, 2000);
@@ -40,9 +38,9 @@ const Contact = () => {
     );
   }
   return (
-    <main className="w-full text-[#143b2f]">
+    <main className="w-full text-[#143b2f] overflow-x-hidden">
       <Header />
-      <section className="relative bg-[#123f35] text-white h-135 flex flex-col justify-center items-center px-6 mb-8">
+      <section className="relative bg-[#123f35] text-white h-100 lg:h-135 flex flex-col justify-center items-center px-6 mb-8">
         <div className="absolute inset-0 bg-[url('/images/contact-bg.jpg')] bg-cover bg-no-repeat  bg-center opacity-14" />
         <div className="relative w-full text-center space-y-8 h-full flex flex-col justify-end items-center ">
           <motion.h2
@@ -77,14 +75,14 @@ const Contact = () => {
           transition={{ duration: 0.8 }}
           className=""
         >
-          <div className="max-w-[90%] mx-auto px-6 md:px-8 grid md:grid-cols-2 grid-cols-1 gap-8 md:gap-36 items-center mb-8 bg--400">
+          <div className="lg:max-w-[90%] w-full mx-auto px-6 md:px-8 grid md:grid-cols-2 grid-cols-1 gap-8 md:gap-36 items-center mb-8 bg--400">
             {" "}
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="p-6 border-2 border-gray-200 rounded-xl md:mr-6 md:mb-0 mb-6"
+              className="p-6 border-2  border-gray-200 rounded-xl md:mr-6 md:mb-0 mb-6"
             >
               <form onSubmit={handleSubmit} method="POST" className="space-y-5">
                 <h3 className="text-2xl font-semibold mb-4 font-Cormorant Garamond">
@@ -202,8 +200,6 @@ const Contact = () => {
           </a>
         </div>
       </div>
-
-      {/* <Footer /> */}
     </main>
   );
 };

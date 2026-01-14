@@ -5,126 +5,54 @@ import Image from "next/image";
 
 const Heritage = () => {
   return (
-    <main className="w-full bg-[#F8F8F8] px-6 md:px-8 py-8 overflow-x-hidden">
-      <div className="max-w-410 mx-auto">
+    <main className="w-full bg-[#F8F8F8] overflow-x-hidden">
+      <div className="max-w-410 mx-auto h-[83vh] lg:h-[80vh] ">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-5xl font-serif font-bold text-[#0F3D2E] text-center"
+          className="text-3xl lg:text-7xl font-serif font-bold text-[#0F3D2E] text-center"
         >
           Heritage & Titles
         </motion.h2>
-        <div className="grid md:grid-cols-2 md:gap-x-12 gap-y-0 items-center max-w-6xl mx-auto">
-          {/* Image Section */}
-          <div className=" w-fit ">
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false , amount: 0.7 }}
+          transition={{ duration: 0.6 }}
+          className="grid md:grid-cols-2 h-100 lg:h-140 gap-10  w-full mx-auto mt-4 lg:mt-24 "
+        >
+          <div className=" w-full p-4 lg:p-0">
             <Image
-              src="/images/heritage3.png"
+              src="/images/title.jpeg"
               alt="Prince seated on throne"
-              className=" h-100 lg:h-190 w-full  object-contain rounded-2xl "
-              width={100}
-              height={50}
+              className=" h-70 lg:h-120 lg:w-11/12  object-contain rounded-2xl "
+              width={800}
+              height={240}
             />
           </div>
-
-          {/* Text Section */}
-          <div className="text-gray-700 text-lg leading-relaxed mb-5">
-            <p className="mb-6">
+          <div className="text-gray-700 leading-relaxed mb-5 items-end flex justify-center flex-col font-sans p-4">
+            <p className="lg:mb-6  mb-4 text-lg lg:text-2xl ">
               Prince Otunba Adedotun Adebola Babatunde Jagun holds respected
               traditional titles across Ogun State and remains actively engaged
               in cultural leadership and grassroots advocacy within Ijebu land.
             </p>
 
-            <p className="mb-10">
+            <p className="mb-10 text-lg lg:text-2xl ">
               His titles includes the Otunba Shobaloju of Orile-Igboore, Otunba
               Apesinola of Oke-Eri, Ijebu Ode, Otun-Asiwaju of Ibiade, Ogun
               Waterside and others.
             </p>
 
             <a
-              href="#"
-              className="text-amber-600 underline underline-offset-4 font-medium hover:text-amber-700 transition text-right "
+              href="/heritage"
+              className="inline-flex items-center underline font-sans font-medium text-[#D89B2D] hover:text-[#D89B2D]/80 transition-colors group"
             >
               View Titles &amp; Lineage
             </a>
           </div>
-        </div>
-        <motion.section
-          initial={{ opacity: 0, x: 50 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="w-full flex flex-col lg:flex-row-reverse justify-between items-center"
-        >
-          <div className="w-full lg:w-1/2 flex flex-col justify-center items-center mb-8 lg:mb-0">
-            <div className="space-y-6 lg:space-y-10 px-4 max-w-2xl">
-              <p className="text-base md:text-xl leading-relaxed">
-                Prince Otunba Adedotun Adebola Babatunde Jagun holds respected
-                traditional titles across Ogun State and remains actively
-                engaged in cultural leadership and grassroots advocacy within
-                Ijebu land.
-              </p>
-              <p className="text-base md:text-xl leading-relaxed">
-                His titles includes the Otunba Shobaloju of Orile-Igboore,
-                Otunba Apesinola of Oke-Eri, Ijebu Ode, Otun-Asiwaju of Ibiade,
-                Ogun Waterside and others.
-              </p>
-            </div>
-          </div>
-          <div className="w-full lg:w-1/2 flex justify-center items-center p-4 lg:p-8 h-100">
-            <div className="w-full max-w-md lg:max-w-none lg:w-124.25 rounded-md  bg--500 ">
-              <div className="flex flex-col items-center justify-center p-10 min-h-full ">
-                {/* Main Container */}
-                <div className="relative group cursor-pointer bg-black w-full">
-                  {/* Background Decorative Frame (Bottom Layer) */}
-                  <div className="absolute inset-0 border-2 border-black translate-x-4 translate-y-4 transition-transform duration-300 group-hover:translate-x-2 group-hover:translate-y-2"></div>
-
-                  {/* Middle Decorative Frame */}
-                  <div className="absolute inset-0 border-2 border-black translate-x-2 translate-y-2 bg-white z-10"></div>
-
-                  {/* Top Content Layer (Image & Border) */}
-                  <div className="relative z-20 border-2 border-black bg-white p-3 shadow-xl">
-                    <div className="overflow-hidden bg-gray-200">
-                      <img
-                        src={"/images/fidiroyal.png"}
-                        alt={"alt"}
-                        className="w-64 h-80 object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </motion.section>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="flex justify-end mt-16 w-11/12"
-        >
-          <Link
-            href="/story"
-            className="inline-flex items-center font-sans font-medium text-[#D89B2D] hover:text-[#D89B2D]/80 transition-colors group"
-          >
-            View Titles & Lineage
-            <svg
-              className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M17 8l4 4m0 0l-4 4m4-4H3"
-              />
-            </svg>
-          </Link>
         </motion.div>
       </div>
     </main>

@@ -11,9 +11,9 @@ const Ventures = () => {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl md:text-5xl font-serif font-bold text-[#0F3D2E] text-center mb-8"
+          className="text-3xl lg:text-6xl font-serif font-bold text-[#0F3D2E] text-center mb-8"
         >
           Ventures
         </motion.h2>
@@ -21,16 +21,16 @@ const Ventures = () => {
         <motion.section
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.8 }}
           className="w-full flex flex-col lg:flex-row justify-between items-center mb-20 lg:mb-32"
         >
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-center mb-8 lg:mb-0">
-            <div className="space-y-6 lg:space-y-10 px-4 max-w-2xl">
-              <h1 className="text-2xl md:text-4xl lg:text-[55px] text-center text-[#0F3D2E]">
+            <div className="space-y-6 lg:space-y-10 px-4 max-w-3xl">
+              <h1 className="text-2xl font-serif md:text-4xl lg:text-[55px] text-center text-[#0F3D2E]">
                 Fidipote Food Market
               </h1>
-              <p className="text-base md:text-xl leading-relaxed">
+              <p className="text-base md:text-2xl leading-relaxed font-sans">
                 Fidipote Food Market is an agricultural and food distribution
                 venture focused on farming, sourcing, and supplying fresh farm
                 produce to local and international markets at accessible
@@ -57,16 +57,16 @@ const Ventures = () => {
         <motion.section
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="w-full flex flex-col lg:flex-row-reverse justify-between items-center"
         >
           <div className="w-full lg:w-1/2 flex flex-col justify-center items-center mb-8 lg:mb-0">
-            <div className="space-y-6 lg:space-y-10 px-4 max-w-2xl">
-              <h1 className="text-2xl md:text-4xl lg:text-[50px] text-center text-[#0F3D2E]">
+            <div className="space-y-6 lg:space-y-10 px-4 max-w-4xl">
+              <h1 className="text-2xl md:text-4xl lg:text-[55px] font-serif text-center text-[#0F3D2E]">
                 Fidipote Royalty Limited
               </h1>
-              <p className="text-base sm:text-center  md:text-xl leading-relaxed">
+              <p className="text-base sm:text-center font-sans  lg:text-2xl leading-relaxed lg:text-left">
                 Fidipote Royalty Limited is a real estate and land development
                 venture centered on responsible land stewardship, property
                 development, and long-term community value.
@@ -92,12 +92,12 @@ const Ventures = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
+          viewport={{ once: false, amount: 0.5 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="flex justify-end  mt-4 w-11/12"
+          className="flex justify-end w-full"
         >
           <Link
-            href="/story"
+            href="/ventures"
             className="inline-flex items-center font-sans font-medium text-[#D89B2D] hover:text-[#D89B2D]/80 transition-colors group"
           >
             Learn More
