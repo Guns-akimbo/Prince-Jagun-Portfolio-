@@ -74,7 +74,7 @@ const HeritagePage = () => {
         </div>
       </div>
       <div className="gap-y-8 py-16 h-fit animate-fade-slide-in delay-150 mt-8  ">
-        <h3 className="font-bold md:text-5xl text-3xl text-teal-700 text-center font-serif ">
+        <h3 className="font-bold md:text-5xl text-2xl text-teal-900 text-center font-serif ">
           Civic Engagement & Traditional Roles
         </h3>
         <div className="space-y  mt-4 lg:mt-14 flex flex-col md:flex-row items-center justify-center  ">
@@ -138,7 +138,7 @@ const HeritagePage = () => {
       </div>
       <div className="animate-fade-slide-in delay-300">
         <div className="flex flex-col items-center justify-center space-y-4 mt-6 ">
-          <h1 className="text-4xl md:text-6xl font-serif font-bold text-teal-900 mb-6 text-center">
+          <h1 className="text-2xl md:text-6xl font-serif font-bold text-teal-900 mb-6 text-center">
             Family / Notable Dignitaries
           </h1>
           <p className="text-base md:text-lg px-8 lg:px-16 pb-16 max-w-5xl text-center">
