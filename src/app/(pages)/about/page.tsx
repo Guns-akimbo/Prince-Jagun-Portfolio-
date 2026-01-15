@@ -266,7 +266,7 @@ const AboutPage = () => {
             >
               <div className="flex flex-col justify-center items-center h-full gap-3 w-full p-4 lg:p-6  ">
                 <div className="hidden lg:flex lg:flex-col ">
-                  <h2 className="text-2xl font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8 text-center">
+                  <h2 className="text-2xl text-centerfont-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8 text-center">
                     Values & Social Commitment
                   </h2>
                   <p className="font-sans text-lg lg:text-2xl leading-relaxed mb-8">
@@ -278,7 +278,7 @@ const AboutPage = () => {
                   </p>
                 </div>
 
-                <h2 className="text-3xl font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8  ">
+                <h2 className="text-3xl text-center font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8  ">
                   Continuing The Legacy
                 </h2>
                 <p className="font-sans text-lg lg:text-2xl leading-relaxed order-2 lg:order-1">
