@@ -9,19 +9,6 @@ const AboutPage = () => {
       <Header />
       <main className="w-full overflow-x-hidden">
         <div className="mobile-bg relative bg-cover w-full flex items-center bg-no-repeat opacity-  h-100vh lg:h-[70vh] lg:pt-0 overflow-x-hidden ">
-          <div className="absolute inset-0 opacity-20">
-            <Image
-              src="/images/your-mobile-bg.jpg" 
-              alt="Prince Adedotun background"
-              fill
-              className="object-cover object-center"
-              loading="lazy"
-              quality={75}
-              placeholder="blur"
-              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R+Cc5xmTb2O4WW3AhMvEhIHJ9DzThd+DRJnJaxZJf/Z"
-              priority={false}
-            />
-          </div>
           <div className="grid lg:grid-cols-2 gap-1 items-start w-full lg:w-10/12 mx-auto p-8 mt-25 ">
             <motion.div
               initial={{ opacity: 0, x: 30 }}
@@ -31,10 +18,10 @@ const AboutPage = () => {
               className=" w-full lg:h-72 "
             >
               <div className="flex flex-col items-center h-full  w-full p-6">
-                <h2 className="font-serif text-[32px] lg:text-7xl text-center font-bold mb-8 text-[#0F3D2E]">
-                  PRINCE ADEDOTUN OLATEJU JAGUN
+                <h2 className="font-serif text-[28px] lg:text-7xl text-center font-bold mb-8 text-[#0F3D2E]">
+                  OMO’BA ADEDOTUN A. OLATEJU-JAGUN
                 </h2>
-                <p className="font-sans text-lg lg:text-3xl leading-relaxed lg:mb-8 text-center">
+                <p className="font-sans text-base lg:text-3xl leading-relaxed lg:mb-8 text-center">
                   Omo’ba Afidipotemole ti Ijebu-Ode
                 </p>
               </div>

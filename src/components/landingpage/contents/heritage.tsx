@@ -1,12 +1,11 @@
 "use client";
-import Link from "next/link";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
 const Heritage = () => {
   return (
     <main className="w-full bg-[#F8F8F8] overflow-x-hidden">
-      <div className="max-w-410 mx-auto h-[83vh] lg:h-[80vh] ">
+      <div className="max-w-410 mx-auto h-[88vh] lg:h-[80vh] ">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -22,7 +21,7 @@ const Heritage = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: false , amount: 0.3 }}
           transition={{ duration: 0.6 }}
-          className="grid md:grid-cols-2 h-110 lg:h-140 gap-10  w-full mx-auto mt-4 lg:mt-24 "
+          className="grid md:grid-cols-2 lg:h-140 gap-10  w-full mx-auto mt-4 lg:mt-24 "
         >
           <div className=" w-full p-4 lg:p-0">
             <Image

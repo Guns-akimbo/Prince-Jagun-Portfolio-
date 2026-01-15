@@ -12,7 +12,7 @@ import Autoplay from "embla-carousel-autoplay";
 const CarouselSection = () => {
   const images = [
     {
-      src: "/Images/aboutimage.jpeg",
+      src: "/images/aboutimage.jpeg",
       alt: "Prince Adedotun Olateju-Jagun",
       title: "Prince Portrait",
     },
