@@ -139,7 +139,7 @@ const HeritagePage = () => {
       <div className="animate-fade-slide-in delay-300">
         <div className="flex flex-col items-center justify-center space-y-4 mt-6 ">
           <h1 className="text-2xl md:text-6xl font-serif font-bold text-teal-900 mb-6 text-center">
-            Family / Notable Dignitaries
+            Notable Family Dignitaries
           </h1>
           <p className="text-base md:text-lg px-8 lg:px-16 pb-16 max-w-5xl text-center">
             The Jagun family legacy extends through respected figures who have

@@ -85,7 +85,7 @@ export default function VenturesSection() {
             className="p-6 "
           >
             <div className="w-full lg:w-10/12">
-              <h3 className="md:text-6xl text-3xl font-serif mb-8">
+              <h3 className="md:text-6xl text-2xl text-center lg:text-left font-serif mb-8">
                 Fidipote Food Market
               </h3>
               <p className="text-gray-700 mb-4 text-sm md:text-xl">
@@ -116,7 +116,7 @@ export default function VenturesSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className=" rounded-xl md:h-180 md:w-270 w-full h-100 p-2 "
+            className=" rounded-xl md:h-180 md:w-270 w-full h-100 p-2 mb-8 lg:mb-0 "
           >
             <Image
               src="/images/frame5.jpg"
@@ -160,7 +160,7 @@ export default function VenturesSection() {
             className="order-1 md:order-2 pl-4 "
           >
             <div className="w-11/12">
-              <h3 className="md:text-5xl text-2xl font-serif mb-8">
+              <h3 className="md:text-5xl text-2xl text-center lg:text-left  font-serif mb-8">
                 Fidipote Royalty Limited
               </h3>
               <p className="text-gray-700 mb-4 text-sm md:text-base">
