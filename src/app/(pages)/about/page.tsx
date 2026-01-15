@@ -18,7 +18,7 @@ const AboutPage = () => {
               className=" w-full lg:h-72 "
             >
               <div className="flex flex-col items-center h-full  w-full p-6">
-                <h2 className="font-serif text-[28px] lg:text-7xl text-center font-bold mb-8 text-[#0F3D2E]">
+                <h2 className="font-serif text-2xl lg:text-7xl text-center font-bold mb-8 text-[#0F3D2E]">
                   OMO’BA ADEDOTUN A. OLATEJU-JAGUN
                 </h2>
                 <p className="font-sans text-base lg:text-3xl leading-relaxed lg:mb-8 text-center">
@@ -34,7 +34,7 @@ const AboutPage = () => {
             >
               <div className="p-2 flex items-center justify-center h-72 ">
                 <div className="rounded flex items-center justify-center">
-                  <p className="font-sans text-base lg:text-2xl leading-relaxed mb-8">
+                  <p className="font-sans text-lg lg:text-2xl leading-relaxed mb-8">
                     Prince Otunba Adedotun Adebola Babatunde Jagun is a
                     community-focused entrepreneur and cultural leader deeply
                     rooted in Ijebu Ode. His work reflects a lifelong commitment
@@ -57,7 +57,7 @@ const AboutPage = () => {
               className=" w-full h-full"
             >
               <div className="flex flex-col justify-center items-center h-full w-full md:p-6">
-                <h2 className="font-serif text-3xl text-center lg:text-6xl font-bold text-[#0F3D2E] mb-8  ">
+                <h2 className="font-serif text-2xl text-center lg:text-6xl font-bold text-[#0F3D2E] mb-8  ">
                   A Legacy in Motion
                 </h2>
                 <p className="font-sans text-lg lg:text-3xl leading-relaxed mb-8">
@@ -98,10 +98,10 @@ const AboutPage = () => {
           className="w-full justify-center flex "
         >
           <div className="flex flex-col justify-center items-center h-fit w-full lg:w-[85%] py-6 md:px-16 px-4">
-            <h2 className="font-serif text-center text-3xl lg:text-6xl font-bold text-[#0F3D2E] mb-6 ">
+            <h2 className="font-serif text-center text-2xl lg:text-6xl font-bold text-[#0F3D2E] mb-6 ">
               Early Life & Foundation
             </h2>
-            <p className="font-sans text-base lg:text-2xl leading-relaxed">
+            <p className="font-sans text-lg lg:text-2xl leading-relaxed">
               Prince Adedotun’s formative years were shaped by movement across
               cultures and communities. Educated at Saint Finbar’s College,
               Akoka, he developed discipline, leadership, and a strong sense of
@@ -149,7 +149,7 @@ const AboutPage = () => {
               className=" w-full lg:w-1/2 lg:h-160 "
             >
               <div className="flex flex-col justify-center items-center h-full w-full">
-                <h2 className="font-serif text-center text-3xl md:text-5xl font-bold mb-6 text-[#0F3D2E]">
+                <h2 className="font-serif text-center text-2xl md:text-5xl font-bold mb-6 text-[#0F3D2E]">
                   Roots of Royal Heritage
                 </h2>
                 <p className="font-sans text-lg lg:text-2xl leading-relaxed lg:mb-0 mb-8">
@@ -174,7 +174,7 @@ const AboutPage = () => {
               className=" w-full h-full"
             >
               <div className="flex flex-col justify-center items-center h-full w-full p-0 lg:p-6">
-                <h2 className="text-3xl text-center font-serif lg:text-5xl font-bold text-[#0F3D2E] mb-8 ">
+                <h2 className="text-2xl text-center font-serif lg:text-5xl font-bold text-[#0F3D2E] mb-8 ">
                   Lineage of Leadership
                 </h2>
                 <p className="font-sans text-lg lg:text-2xl text-left leading-relaxed mb-8">
@@ -211,7 +211,7 @@ const AboutPage = () => {
         <div className=" mx-auto py-6 lg:py-14 bg-red00  w-full  lg:w-10/12">
           <div className="grid lg:grid-cols-2 gap-1 items-start w-full justify-between lg:h-160">
             <div className="p-4 lg:hidden">
-              <h2 className="text-3xl text-center font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8 ">
+              <h2 className="text-2xl text-center font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8 ">
                 Values & Social Commitment
               </h2>
               <p className="font-sans text-lg lg:text-2xl leading-relaxed ">
