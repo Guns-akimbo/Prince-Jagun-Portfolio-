@@ -70,7 +70,7 @@ const AboutPage = () => {
               className=" w-full h-full"
             >
               <div className="flex flex-col justify-center items-center h-full w-full md:p-6">
-                <h2 className="font-serif text-2xl lg:text-6xl font-bold text-[#0F3D2E] mb-8  ">
+                <h2 className="font-serif text-3xl text-center lg:text-6xl font-bold text-[#0F3D2E] mb-8  ">
                   A Legacy in Motion
                 </h2>
                 <p className="font-sans text-lg lg:text-3xl leading-relaxed mb-8">
@@ -111,7 +111,7 @@ const AboutPage = () => {
           className="w-full justify-center flex "
         >
           <div className="flex flex-col justify-center items-center h-fit w-full lg:w-[85%] py-6 md:px-16 px-4">
-            <h2 className="font-serif text-2xl g:text-6xl font-bold text-[#0F3D2E] mb-6 ">
+            <h2 className="font-serif text-center text-3xl lg:text-6xl font-bold text-[#0F3D2E] mb-6 ">
               Early Life & Foundation
             </h2>
             <p className="font-sans text-base lg:text-2xl leading-relaxed">
@@ -162,7 +162,7 @@ const AboutPage = () => {
               className=" w-full lg:w-1/2 lg:h-160 "
             >
               <div className="flex flex-col justify-center items-center h-full w-full">
-                <h2 className="font-serif text-2xl md:text-5xl font-bold mb-6 text-[#0F3D2E]">
+                <h2 className="font-serif text-center text-3xl md:text-5xl font-bold mb-6 text-[#0F3D2E]">
                   Roots of Royal Heritage
                 </h2>
                 <p className="font-sans text-lg lg:text-2xl leading-relaxed lg:mb-0 mb-8">
@@ -187,7 +187,7 @@ const AboutPage = () => {
               className=" w-full h-full"
             >
               <div className="flex flex-col justify-center items-center h-full w-full p-0 lg:p-6">
-                <h2 className="text-2xl font-serif lg:text-5xl font-bold text-[#0F3D2E] mb-8 ">
+                <h2 className="text-3xl text-center font-serif lg:text-5xl font-bold text-[#0F3D2E] mb-8 ">
                   Lineage of Leadership
                 </h2>
                 <p className="font-sans text-lg lg:text-2xl text-left leading-relaxed mb-8">
@@ -224,7 +224,7 @@ const AboutPage = () => {
         <div className=" mx-auto py-6 lg:py-14 bg-red00  w-full  lg:w-10/12">
           <div className="grid lg:grid-cols-2 gap-1 items-start w-full justify-between lg:h-160">
             <div className="p-4 lg:hidden">
-              <h2 className="text-2xl font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8 ">
+              <h2 className="text-3xl text-center font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8 ">
                 Values & Social Commitment
               </h2>
               <p className="font-sans text-lg lg:text-2xl leading-relaxed ">
@@ -266,7 +266,7 @@ const AboutPage = () => {
             >
               <div className="flex flex-col justify-center items-center h-full gap-3 w-full p-4 lg:p-6  ">
                 <div className="hidden lg:flex lg:flex-col ">
-                  <h2 className="text-2xl text-centerfont-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8 text-center">
+                  <h2 className="text-2xl  font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8 text-center">
                     Values & Social Commitment
                   </h2>
                   <p className="font-sans text-lg lg:text-2xl leading-relaxed mb-8">
