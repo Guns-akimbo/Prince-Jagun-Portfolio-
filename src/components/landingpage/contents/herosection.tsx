@@ -38,7 +38,7 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className="flex justify-center md:justify-end relative left-12  lg:left-0 bottom-0 lg:-bottom-24 z-50">
+          <div className="flex justify-center md:justify-end relative left-9  lg:left-0 bottom-0 lg:-bottom-24 z-50">
             <div className="w-80 h-80 lg:w-160.5 lg:h-160.5 rounded-full border-4 border-white/30 overflow-hidden shadow-2xl z-30">
               <Image
                 src="/images/prince.jpg"
