@@ -5,7 +5,7 @@ import Image from "next/image";
 const Heritage = () => {
   return (
     <main className="w-full bg-[#F8F8F8] overflow-x-hidden">
-      <div className="max-w-410 mx-auto bg-amber-300 h-[88vh] lg:h-[80vh] ">
+      <div className="max-w-410 mx-auto bg-amber-300 h-screen lg:h-[80vh] ">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
