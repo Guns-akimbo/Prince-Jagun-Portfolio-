@@ -20,9 +20,9 @@ const Heritage = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false , amount: 0.7 }}
+          viewport={{ once: false , amount: 0.3 }}
           transition={{ duration: 0.6 }}
-          className="grid md:grid-cols-2 h-100 lg:h-140 gap-10  w-full mx-auto mt-4 lg:mt-24 "
+          className="grid md:grid-cols-2 h-110 lg:h-140 gap-10  w-full mx-auto mt-4 lg:mt-24 "
         >
           <div className=" w-full p-4 lg:p-0">
             <Image
@@ -31,6 +31,7 @@ const Heritage = () => {
               className=" h-70 lg:h-120 lg:w-11/12  object-contain rounded-2xl "
               width={800}
               height={240}
+              priority
             />
           </div>
           <div className="text-gray-700 leading-relaxed mb-5 items-end flex justify-center flex-col font-sans p-4">

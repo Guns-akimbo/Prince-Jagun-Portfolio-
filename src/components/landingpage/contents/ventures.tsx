@@ -11,7 +11,7 @@ const Ventures = () => {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.6 }}
           className="text-3xl lg:text-6xl font-serif font-bold text-[#0F3D2E] text-center mb-8"
         >
@@ -21,7 +21,7 @@ const Ventures = () => {
         <motion.section
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.8 }}
           className="w-full flex flex-col lg:flex-row justify-between items-center mb-20 lg:mb-32"
         >
@@ -57,7 +57,7 @@ const Ventures = () => {
         <motion.section
           initial={{ opacity: 0, x: 50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.8, delay: 0.2 }}
           className="w-full flex flex-col lg:flex-row-reverse justify-between items-center"
         >
@@ -92,7 +92,7 @@ const Ventures = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex justify-end w-full"
         >

@@ -12,6 +12,7 @@ const Nav = () => {
           <Link
             href={link.path}
             key={idx}
+            prefetch={true}
             className={`${
               pathname === link.path && "text-[#0F3D2E] border-b-2 border-[#0F3D2E]"
             } capitalize text-[14px] font-medium hover:text-[#0F3D2E] transition-all`}

@@ -40,6 +40,7 @@ const MobileNav = () => {
             <Link
               href={link.path}
               key={idx}
+              prefetch={true}
               onClick={() => setIsOpen(false)}
               className={`px-6 py-4 text-lg font-medium capitalize transition-all duration-300 border-b border-gray-50 last:border-b-0 hover:bg-gray-50 hover:pl-8
                 ${

@@ -8,7 +8,20 @@ const AboutPage = () => {
     <>
       <Header />
       <main className="w-full overflow-x-hidden">
-        <div className="mobile-bg bg-cover w-full flex items-center bg-no-repeat opacity-  h-100vh lg:h-[70vh] lg:pt-0 overflow-x-hidden ">
+        <div className="mobile-bg relative bg-cover w-full flex items-center bg-no-repeat opacity-  h-100vh lg:h-[70vh] lg:pt-0 overflow-x-hidden ">
+          <div className="absolute inset-0 opacity-20">
+            <Image
+              src="/images/your-mobile-bg.jpg" 
+              alt="Prince Adedotun background"
+              fill
+              className="object-cover object-center"
+              loading="lazy"
+              quality={75}
+              placeholder="blur"
+              blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R+Cc5xmTb2O4WW3AhMvEhIHJ9DzThd+DRJnJaxZJf/Z"
+              priority={false}
+            />
+          </div>
           <div className="grid lg:grid-cols-2 gap-1 items-start w-full lg:w-10/12 mx-auto p-8 mt-25 ">
             <motion.div
               initial={{ opacity: 0, x: 30 }}
@@ -32,7 +45,7 @@ const AboutPage = () => {
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="p-2 flex items-center justify-center h-72">
+              <div className="p-2 flex items-center justify-center h-72 ">
                 <div className="rounded flex items-center justify-center">
                   <p className="font-sans text-base lg:text-2xl leading-relaxed mb-8">
                     Prince Otunba Adedotun Adebola Babatunde Jagun is a
@@ -52,7 +65,7 @@ const AboutPage = () => {
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className=" w-full h-full"
             >
@@ -72,7 +85,7 @@ const AboutPage = () => {
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6 }}
             >
               <div className=" aspect-auto rounded flex items-center justify-center">
@@ -83,6 +96,7 @@ const AboutPage = () => {
                     className="w-full h-full lg:h-full object-cover rounded-2xl"
                     width={800}
                     height={100}
+                    priority
                   />
                 </div>
               </div>
@@ -92,7 +106,7 @@ const AboutPage = () => {
         <motion.div
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.6, delay: 0.2 }}
           className="w-full justify-center flex "
         >
@@ -121,7 +135,7 @@ const AboutPage = () => {
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6 }}
               className="w-full lg:w-1/2 h-160 flex flex-col justify-center items-start text-center"
             >
@@ -132,6 +146,7 @@ const AboutPage = () => {
                   className="w-full h-full lg:h-full object-cover  rounded-2xl "
                   width={800}
                   height={100}
+                  priority
                 />
                 <h2 className="font-sans text-lg md:text-xl font-normal mt-4">
                   A sculptured of Awùjalès S. K. Adetona{" "}
@@ -142,7 +157,7 @@ const AboutPage = () => {
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className=" w-full lg:w-1/2 lg:h-160 "
             >
@@ -167,7 +182,7 @@ const AboutPage = () => {
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className=" w-full h-full"
             >
@@ -188,7 +203,7 @@ const AboutPage = () => {
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: false, amount: 0.7 }}
+              viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6 }}
             >
               <div className=" aspect-auto rounded w-full flex items-center justify-end h-full ">
@@ -199,6 +214,7 @@ const AboutPage = () => {
                     className="w-full h-full object-cover rounded-2xl lg:h-148 mb-2 lg:w-135.25"
                     width={800}
                     height={100}
+                    priority
                   />
                 </div>
               </div>
@@ -235,6 +251,7 @@ const AboutPage = () => {
                     className="w-full h-full lg:h-full object-cover rounded-2xl"
                     width={800}
                     height={100}
+                    priority
                   />
                 </div>
               </div>
