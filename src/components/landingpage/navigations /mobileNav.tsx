@@ -5,8 +5,15 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { CiMenuFries } from "react-icons/ci";
-import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "../../ui/sheet";
+import {
+  Sheet,
+  SheetContent,
+  SheetTrigger,
+  SheetTitle,
+  SheetClose,
+} from "../../ui/sheet";
 import Image from "next/image";
+import { XIcon } from "lucide-react";
 
 const MobileNav = () => {
   const pathname = usePathname();
@@ -15,15 +22,15 @@ const MobileNav = () => {
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
       <SheetTrigger className="flex justify-center items-center p-2 hover:bg-gray-100 rounded-md transition-colors duration-200">
-        <CiMenuFries className="text-[28px] text-black" />
+        <CiMenuFries className="text-[28px] " />
       </SheetTrigger>
       <SheetContent
         side="right"
-        className="flex flex-col gap-0 p-0 bg-white/95 backdrop-blur-xl shadow-2xl border-none overflow-hidden w-80 sm:max-w-80"
+        className="flex flex-col gap-0 p-0 bg-white/95 backdrop-blur-xl shadow-2xl border-none overflow-hidden w-80 sm:max-w-80 [&>button]:hidden"
       >
         <SheetTitle className="sr-only">Navigation Menu</SheetTitle>
 
-        <div className="p-6 border-b border-gray-100 bg-white">
+        <div className=" border-b border-gray-100 bg-white flex items-center justify-between p-4">
           <Image
             priority
             quality={100}
@@ -31,8 +38,14 @@ const MobileNav = () => {
             height={60}
             alt="logo"
             className="object-contain"
-            src="/images/logo.jpg"
+            src="/Logo.png"
           />
+          <SheetClose asChild>
+            <button className="p-2 hover:bg-gray-100 rounded-md transition-colors duration-200  focus:outline-none">
+              <XIcon className="h-6 w-6 text-gray-600" />
+              <span className="sr-only">Close</span>
+            </button>
+          </SheetClose>
         </div>
 
         <nav className="flex flex-col py-6 bg-white">
@@ -57,7 +70,7 @@ const MobileNav = () => {
 
         <div className="mt-auto p-6 border-t border-gray-100 bg-gray-50">
           <p className="text-sm text-gray-600 text-center">
-            © 2026 Prince Jagun
+            © 2026 OMO’BA ADEDOTUN A. OLATEJU-JAGUN
           </p>
         </div>
       </SheetContent>
