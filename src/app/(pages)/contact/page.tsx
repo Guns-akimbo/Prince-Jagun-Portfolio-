@@ -53,13 +53,13 @@ const Contact = () => {
             blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R+Cc5xmTb2O4WW3AhMvEhIHJ9DzThd+DRJnJaxZJf/Z"
           />
         </div>
-        <div className="relative w-full text-center space-y-8 h-full flex flex-col justify-end items-center ">
+        <div className="relative w-full text-center space-y-8 h-full flex flex-col justify-end items-center  ">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-6xl font-serif text-white"
+            className="text-3xl 2xl:text-6xl font-serif text-white"
           >
             Connect with Prince Adedotun
           </motion.h2>
@@ -69,7 +69,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg md:text-2xl max-w-3xl mx-auto mb-12"
+            className="text-lg lg:text-2xl max-w-3xl mx-auto mb-12"
           >
             For enquiries related to enterprise, community initiatives, or
             official correspondence, please reach out using the details below or
@@ -86,15 +86,38 @@ const Contact = () => {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className=""
         >
-          <div className="lg:max-w-[90%] w-full mx-auto px-6 md:px-8 grid md:grid-cols-2 grid-cols-1 gap-8 md:gap-36 items-center mb-8 bg--400">
+          <div
+            className="
+  max-w-8xl
+  w-full
+  mx-auto
+  px-6
+  md:px-8
+  grid
+  grid-cols-1
+  lg:grid-cols-2
+  gap-10
+  lg:gap-20
+  items-start
+  mb-12
+  2xl:p-24
+"
+          >
             {" "}
             <motion.div
               initial={{ opacity: 0.1, x: -30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.4, ease: "easeOut" }}
-              className="p-6 border-2 border-gray-200 rounded-xl md:mr-6 md:mb-0 mb-6 bg-white shadow-sm"
-              style={{ backgroundColor: 'white', minHeight: 'auto' }}
+              className="
+    p-6
+    border-2
+    border-gray-200
+    rounded-xl
+    bg-white
+    shadow-sm
+    w-full
+  "
             >
               <form onSubmit={handleSubmit} method="POST" className="space-y-5">
                 <h3 className="lg:text-2xl text-lg font-semibold mb-4 font-Cormorant Garamond">
@@ -144,23 +167,22 @@ const Contact = () => {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: false, amount: 0.3 }}
               transition={{ duration: 0.6, delay: 0.4 }}
-              className=" rounded-xl md:h-180 md:w-170 w-full h-100 p-2 "
+              className=" w-full "
             >
-              <div className="flex flex-col gap-6 md:mt-26 mt-0 ">
-                <div className="h-4/6">
+              <div className="flex flex-col gap-6  mt-0 ">
+                <div className="w-full relative aspect-[4/3] ">
                   <Image
                     src="/images/contact2.jpg"
                     alt="Fidipote Food Market"
-                    className="rounded-lg w-full h-full object-cover"
-                    width={800}
-                    height={400}
-                    loading="lazy"
+                    className="rounded-lg object-cover"
+                    fill
+                    priority={false}
                     quality={80}
                     placeholder="blur"
                     blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R+Cc5xmTb2O4WW3AhMvEhIHJ9DzThd+DRJnJaxZJf/Z"
                   />
                 </div>
-                <div className="h-4/6 space-y-4">
+                <div className=" space-y-4">
                   <div className="flex gap-4">
                     <section className="p-2 w-8 h-8 rounded-full bg-gray-400 flex items-center justify-center">
                       <MapPin />
@@ -174,7 +196,7 @@ const Contact = () => {
                     </section>
                   </div>
 
-                  <div className="flex gap-4 mb-8">
+                  <div className="flex gap-4 ">
                     <section className="p-2 w-8 h-8 rounded-full bg-gray-400 flex items-center justify-center">
                       <Mail />
                     </section>
@@ -190,7 +212,7 @@ const Contact = () => {
         </motion.section>
       </div>
 
-      <div className="max-w-[90%] mx-auto mt-8 flex flex-col gap-3 mb-20">
+      <div className="max-w-[90%] mx-auto mt-10 flex flex-col gap-3 mb-6">
         <p className="text-xl">Socials</p>
         <div className="flex items-center gap-6">
           <a
