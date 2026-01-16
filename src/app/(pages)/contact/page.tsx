@@ -61,7 +61,7 @@ const Contact = () => {
             transition={{ duration: 0.6 }}
             className="text-3xl 2xl:text-6xl font-serif text-white"
           >
-            Connect with Prince Adedotun
+            OMO’BA ADEDOTUN A. OLATEJU-JAGUN
           </motion.h2>
 
           <motion.p
