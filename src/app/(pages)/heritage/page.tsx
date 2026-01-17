@@ -171,8 +171,8 @@ const HeritagePage = () => {
             </div>
           </div>
         </div>
-        <div className="2xl:w-1/3 md:w-full h-full flex items-center justify-center mb-8 2xl:mb-0">
-          <div className="w-full md:h-full h-11/12   lg:p-0 flex justify-center items-center ">
+        <div className="2xl:w-1/3 md:w-full h-full flex items-center justify-center mb-8 2xl:mb-0 bg-amber-400">
+          <div className="w-full md:h-full h-11/12  lg:p-0 flex justify-center items-center ">
             <Image
               src="/images/heritage2.png"
               alt="Prince seated on throne"
