@@ -27,7 +27,7 @@ const HeroSection = () => {
             <h1 className="text-4xl font-serif md:text-4xl lg:text-5xl 2xl:text-7xl font-bold text-[#C9A050] mb-4 leading-tight text-center">
               OMO’BA ADEDOTUN A. OLATEJU-JAGUN
             </h1>
-            <p className="text-lg  md:text-xl lg:text-2xl font-sans 2xl:text-3xl mb-10 font-light opacity-90 text-center">
+            <p className="text-base  md:text-xl lg:text-2xl font-sans 2xl:text-3xl mb-10 font-light opacity-90 text-center">
               Omo’ba Afidipotemole ti Ijebu-Ode
             </p>
             <p className="text-base font-sans lg:text-xl 2xl:text-2xl leading-relaxed max-w-3xl opacity-80 text-center ">

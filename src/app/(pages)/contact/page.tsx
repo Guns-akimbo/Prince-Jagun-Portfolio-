@@ -120,7 +120,7 @@ const Contact = () => {
   "
             >
               <form onSubmit={handleSubmit} method="POST" className="space-y-5">
-                <h3 className="lg:text-2xl text-lg font-semibold mb-4 font-Cormorant Garamond">
+                <h3 className="lg:text-2xl text-base font-semibold mb-4 font-Cormorant Garamond">
                   Let&apos;s chat, Reach out to us
                 </h3>
                 <input

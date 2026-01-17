@@ -34,13 +34,13 @@ const AboutPage = () => {
             >
               <div className="p-2 flex items-center justify-center h-72 ">
                 <div className="rounded flex items-center justify-center">
-                  <p className="font-sans text-lg md:text-2xl lg:text-2xl leading-relaxed mb-8">
-                    Prince Otunba Adedotun Adebola Babatunde Jagun is a
-                    community-focused entrepreneur and cultural leader deeply
-                    rooted in Ijebu Ode. His work reflects a lifelong commitment
-                    to preserving heritage while building practical, modern
-                    solutions that support economic growth, food security, and
-                    community well-being.
+                  <p className="font-sans text-base md:text-2xl lg:text-2xl leading-relaxed mb-8">
+                    Oma’ba Adedotun A. Olateju-Jagun is a community-focused
+                    entrepreneur and cultural leader deeply rooted in Ijebu Ode.
+                    His work reflects a lifelong commitment to preserving
+                    heritage while building practical, modern solutions that
+                    support economic growth, food security, and community
+                    well-being.
                   </p>
                 </div>
               </div>
@@ -60,12 +60,12 @@ const AboutPage = () => {
                 <h2 className="font-serif text-2xl text-center md:text-4xl 2xl:text-6xl font-bold text-[#0F3D2E] mb-8  ">
                   A Legacy in Motion
                 </h2>
-                <p className="font-sans text-lg md:text-2xl 2xl:text-3xl leading-relaxed mb-8">
+                <p className="font-sans text-base md:text-2xl 2xl:text-3xl leading-relaxed mb-8">
                   Born in the United States and raised between Nigeria and the
-                  U.S., Prince Adedotun embodies a global perspective grounded
-                  in tradition. A proud member of the Fidipote Ruling House of
-                  Ijebu Ode, his identity is shaped by lineage, responsibility,
-                  and service to community.
+                  U.S., Oma’ba Adedotun A. Olateju-Jagun embodies a global
+                  perspective grounded in tradition. A proud member of the
+                  Fidipote Ruling House of Ijebu Ode, his identity is shaped by
+                  lineage, responsibility, and service to community.
                 </p>
               </div>
             </motion.div>
@@ -78,7 +78,7 @@ const AboutPage = () => {
               <div className=" aspect-auto rounded flex items-center justify-center">
                 <div className="h-120 w-full md:h-270 2xl:h-160 2xl:w-135.25 lg:p-0 p-2">
                   <Image
-                    src="/images/about2.jpg"
+                    src="/images/boo.jpeg"
                     alt="Prince seated on throne"
                     className="w-full h-full lg:h-full object-cover rounded-2xl"
                     width={800}
@@ -102,11 +102,11 @@ const AboutPage = () => {
               Early Life & Foundation
             </h2>
             <p className="font-sans text-lg md:text-2xl 2xl:text-2xl leading-relaxed">
-              Prince Adedotun’s formative years were shaped by movement across
-              cultures and communities. Educated at Saint Finbar’s College,
-              Akoka, he developed discipline, leadership, and a strong sense of
-              service—values reinforced by his mother’s resilience as an
-              educator, farmer, and trader.
+              Oma’ba Adedotun A. Olateju-Jagun formative years were shaped by
+              movement across cultures and communities. Educated at Saint
+              Finbar’s College, Akoka, he developed discipline, leadership, and
+              a strong sense of service—values reinforced by his mother’s
+              resilience as an educator, farmer, and trader.
               <br />
               <br />
               He holds a BSc in Management Information Systems and an MBA from
@@ -153,9 +153,9 @@ const AboutPage = () => {
                   Roots of Royal Heritage
                 </h2>
                 <p className="font-sans text-xl 2xl:text-2xl leading-relaxed lg:mb-0 mb-8">
-                  Prince Adedotun is a direct descendant of Awujale Ademuyewo
-                  Fidipote, who reigned from 1850 to 1886, and the
-                  great-grandson of Princess Adefowope Ademuyewo and ‘Dada’
+                  Oma’ba Adedotun A. Olateju-Jagun is a direct descendant of
+                  Awujale Ademuyewo Fidipote, who reigned from 1850 to 1886, and
+                  the great-grandson of Princess Adefowope Ademuyewo and ‘Dada’
                   Olateju Jagun, the Generalissimo of Ijebuland. His lineage
                   reflects generations of leadership, commerce, and service.
                 </p>
@@ -215,11 +215,11 @@ const AboutPage = () => {
                 Values & Social Commitment
               </h2>
               <p className="font-sans text-lg 2xl:text-2xl leading-relaxed ">
-                Guided by a humanitarian philosophy, Prince Adedotun believes
-                communities thrive through access to education, skills, food,
-                and opportunity. His work supports youth development,
-                agricultural skills, food security, clean water access, and care
-                for the elderly.
+                Guided by a humanitarian philosophy, Oma’ba Adedotun A.
+                Olateju-Jagun believes communities thrive through access to
+                education, skills, food, and opportunity. His work supports
+                youth development, agricultural skills, food security, clean
+                water access, and care for the elderly.
               </p>
             </div>
 
@@ -257,11 +257,11 @@ const AboutPage = () => {
                     Values & Social Commitment
                   </h2>
                   <p className="font-sans text-lg 2xl:text-2xl leading-relaxed mb-8">
-                    Guided by a humanitarian philosophy, Prince Adedotun
-                    believes communities thrive through access to education,
-                    skills, food, and opportunity. His work supports youth
-                    development, agricultural skills, food security, clean water
-                    access, and care for the elderly.
+                    Guided by a humanitarian philosophy, Oma’ba Adedotun A.
+                    Olateju-Jagun believes communities thrive through access to
+                    education, skills, food, and opportunity. His work supports
+                    youth development, agricultural skills, food security, clean
+                    water access, and care for the elderly.
                   </p>
                 </div>
 
@@ -269,9 +269,9 @@ const AboutPage = () => {
                   Continuing The Legacy
                 </h2>
                 <p className="font-sans text-lg 2xl:text-2xl leading-relaxed order-2 lg:order-1">
-                  Prince Otunba Adedotun Adebola Babatunde Jagun represents a
-                  balance of heritage and progress. His journey reflects respect
-                  for tradition, guided by a clear vision for sustainable
+                  Oma’ba Adedotun A. Olateju-Jagun represents a balance of
+                  heritage and progress. His journey reflects respect for
+                  tradition, guided by a clear vision for sustainable
                   development and empowered communities.
                 </p>
               </div>

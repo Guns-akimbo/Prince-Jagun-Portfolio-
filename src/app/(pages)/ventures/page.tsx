@@ -26,7 +26,7 @@ export default function VenturesSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg md:text-3xl max-w-3xl mx-auto mb-12"
+            className="text-base md:text-3xl max-w-3xl mx-auto mb-12"
           >
             Building sustainable enterprises rooted in heritage, responsibility,
             and community impact.
@@ -38,10 +38,10 @@ export default function VenturesSection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-base md:text-2xl text-white/80 w-full mx-auto"
           >
-            Prince Otunba Adedotun Adebola Babatunde Jagun oversees ventures
-            that address real needs—food security, land stewardship, and
-            responsible development—while creating long-term value for
-            communities and stakeholders.
+            Oma’ba Adedotun A. Olateju-Jagun oversees ventures that address real
+            needs—food security, land stewardship, and responsible
+            development—while creating long-term value for communities and
+            stakeholders.
           </motion.p>
         </div>
       </section>
@@ -59,8 +59,8 @@ export default function VenturesSection() {
               Enterprise with Purpose
             </h2>
             <p className="text-gray-700 leading-relaxed text-base p-2 lg:text-xl text-center ">
-              Prince Adedotun’s approach to enterprise is guided by
-              sustainability, responsibility, and long-term thinking. Each
+              Oma’ba Adedotun A. Olateju-Jagun approach to enterprise is guided
+              by sustainability, responsibility, and long-term thinking. Each
               venture under his stewardship is designed to serve people, respect
               culture, and support economic growth—balancing tradition with
               modern business practices.
@@ -76,7 +76,7 @@ export default function VenturesSection() {
         transition={{ duration: 0.8 }}
         className=""
       >
-        <div className="2xl:max-w-[95%] w-full mx-auto flex flex-col lg:flex-row gap-y-6  md:gap-x-6 items-center bg--500">
+        <div className="2xl:max-w-[95%] w-full mx-auto flex flex-col lg:flex-row gap-y-6  md:gap-x-6 items-center ">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -88,14 +88,14 @@ export default function VenturesSection() {
               <h3 className="lg:text-5xl md:text-4xl text-2xl text-center 2xl:text-left font-serif mb-8">
                 Fidipote Food Market
               </h3>
-              <p className="text-gray-700 mb-4 text-sm lg:text-lg">
+              <p className="text-gray-700 mb-4 text-base lg:text-lg">
                 Fidipote Food Market focuses on farming, food sourcing, and the
                 distribution of fresh agricultural produce to local and
                 international markets. The venture is built on a simple
                 principle: nutritious food should be accessible, affordable, and
                 sustainably produced.
               </p>
-              <p className="text-gray-700 mb-6 text-sm lg:text-lg">
+              <p className="text-gray-700 mb-6 text-base lg:text-lg">
                 By working closely with farmers and streamlining supply chains,
                 Fidipote Food Market supports local agriculture while improving
                 food availability for households and communities.
@@ -141,14 +141,14 @@ export default function VenturesSection() {
             <h3 className="xl:text-5xl md:text-4xl text-3xl text-center 2xl:text-left font-serif mb-8">
               Fidipote Royalty Limited
             </h3>
-            <p className="text-gray-700 mb-4 text-lg">
+            <p className="text-gray-700 mb-4 text-base">
               Fidipote Royalties is the real estate and property development arm
-              under Prince Adedotun&#39;s leadership. The venture focuses on
+              under Oma’ba Adedotun A. Olateju-Jagun  leadership. The venture focuses on
               land management, residential development, and community-oriented
               projects that respect cultural heritage while embracing modern
               planning standards.
             </p>
-            <p className="text-gray-700 mb-6 text-sm md:text-lg">
+            <p className="text-gray-700 mb-6 text-base md:text-lg">
               Through a long-term approach to value creation, Fidipote Royalties
               aligns traditional land ownership with sustainable real estate
               practices that benefit families, investors, and host communities.
@@ -188,14 +188,14 @@ export default function VenturesSection() {
               <h3 className="lg:text-5xl md:text-4xl text-3xl text-center 2xl:text-left font-serif mb-8">
                 Fidipote Royalty Limited
               </h3>
-              <p className="text-gray-700 mb-4 text-lg">
+              <p className="text-gray-700 mb-4 text-base">
                 Fidipote Royalties is the real estate and property development
-                arm under Prince Adedotun&#39;s leadership. The venture focuses
+                arm under Oma’ba Adedotun A. Olateju-Jagun leadership. The venture focuses
                 on land management, residential development, and
                 community-oriented projects that respect cultural heritage while
                 embracing modern planning standards.
               </p>
-              <p className="text-gray-700 mb-6 text-sm md:text-lg">
+              <p className="text-gray-700 mb-6 text-base md:text-lg">
                 Through a long-term approach to value creation, Fidipote
                 Royalties aligns traditional land ownership with sustainable
                 real estate practices that benefit families, investors, and host
@@ -219,7 +219,7 @@ export default function VenturesSection() {
               <h2 className="text-2xl md:text-4xl text-center font-serif 2xl:text-4xl font-bold text-[#0F3D2E] mb-8 ">
                 Building Beyond Business
               </h2>
-              <p className="font-sans text-lg lg:text-2xl leading-relaxed ">
+              <p className="font-sans text-base lg:text-2xl leading-relaxed ">
                 Beyond commercial success, his ventures are structured to
                 support broader community development, strengthening food
                 security, encouraging responsible land use, and creating
@@ -239,14 +239,14 @@ export default function VenturesSection() {
                   <h2 className="text-2xl md:text-4xl text-center font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8  ">
                     Building Beyond Businesss
                   </h2>
-                  <p className="font-sans text-lg lg:text-2xl leading-relaxed ">
+                  <p className="font-sans text-base lg:text-2xl leading-relaxed ">
                     Beyond commercial success, his ventures are structured to
                     support broader community development, strengthening food
                     security, encouraging responsible land use, and creating
                     opportunities that endure across generations.
                   </p>
-                  <p className="font-sans text-lg lg:text-2xl leading-relaxed order-2 lg:order-1 mt-4">
-                    As his ventures continue to grow, Prince Adedotun remains
+                  <p className="font-sans text-base lg:text-2xl leading-relaxed order-2 lg:order-1 mt-4">
+                    As his ventures continue to grow, Oma’ba Adedotun A. Olateju-Jagun  remains
                     focused on innovation, sustainability, and service—ensuring
                     that enterprise remains a tool for empowerment and long-term
                     progress.
@@ -275,8 +275,8 @@ export default function VenturesSection() {
               </div>
             </motion.div>
 
-            <p className="font-sans text-lg lg:text-2xl leading-relaxed order-2 lg:order-1 p-4 lg:hidden">
-              As his ventures continue to grow, Prince Adedotun remains focused
+            <p className="font-sans text-base lg:text-2xl leading-relaxed order-2 lg:order-1 p-4 lg:hidden">
+              As his ventures continue to grow, Oma’ba Adedotun A. Olateju-Jagun remains focused
               on innovation, sustainability, and service—ensuring that
               enterprise remains a tool for empowerment and long-term progress.
             </p>

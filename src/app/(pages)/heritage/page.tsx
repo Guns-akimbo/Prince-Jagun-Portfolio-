@@ -20,7 +20,7 @@ const HeritagePage = () => {
               A lineage of leadership, service, and civic responsibility.
             </p>
             <div className=" my-8 max-w-4xl ">
-              <p className="text-sm lg:text-lg  text-emerald-50">
+              <p className="text-base lg:text-lg  text-emerald-50">
                 Omo’ba Adedotun A. Olateju Jagun stands within a distinguished
                 Ijebu lineage defined by nobility, enterprise, and public
                 service. His heritage reflects generations of leadership shaped
@@ -82,7 +82,7 @@ const HeritagePage = () => {
             </h3>
             <div className="mt-4 flex flex-col items-start">
               <div className="w-full ">
-                <p className="text-lg md:text-2xl 2xl:text-lg mb-6 ">
+                <p className="text-base md:text-2xl 2xl:text-lg mb-6 ">
                   A bonafide member of the Fidipote Ruling House, Omo’ba
                   Adedotun A. Olateju Jagun holds several respected traditional
                   titles reflecting leadership and service across communities
@@ -95,7 +95,7 @@ const HeritagePage = () => {
                       Otunba Apesinola of Oke-Eri, Ijebu Ode
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
-                      Given by His Royal Highness, Oba Babatunde Adegboyega
+                      Conferred by His Royal Highness, Oba Babatunde Adegboyega
                       Oredipe Akanwun Owe 1 The Olu of Oke-Eri
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
@@ -112,7 +112,7 @@ const HeritagePage = () => {
                       Otun-Asiwaju of Ibiade, Ogun Waterside{" "}
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
-                      Given by His Royal Highness, Oba Bola Raimi (Laigbo 1).
+                      Conferred by His Royal Highness, Oba Bola Raimi (Laigbo 1).
                       The Alarige of Ibiade
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
@@ -129,7 +129,7 @@ const HeritagePage = () => {
                       Otunba Shobaloju I of Orile-Igbore{" "}
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
-                      Given by His Royal Majesty Oba Segun Joseph OGUNBONA
+                      Conferred by His Royal Majesty Oba Segun Joseph OGUNBONA
                       ALAWONLA 1 Onigbore of Igbore, Olu of Orile Igbore
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
@@ -147,7 +147,7 @@ const HeritagePage = () => {
                       Otunba Olutoyese of Ijebu-Mushin
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
-                      Given by Obelu of Esure Kingdom Ijebu Mushin. His Royal
+                      Conferred by Obelu of Esure Kingdom Ijebu Mushin. His Royal
                       Highness His Royal Highness Oba Abdulsamad Olalekan Kasali
                       (Alarada III)
                     </li>
@@ -159,7 +159,7 @@ const HeritagePage = () => {
                   </span>
                 </div>
 
-                <p className="text-lg md:text-2xl mb-8 2xl:text-lg hidden lg:block">
+                <p className="text-base md:text-2xl mb-8 2xl:text-lg hidden lg:block">
                   He is also an honorary member of the Bobamayegun Okunrin
                   Asiwaju Akile Ijebu, reinforcing his continued involvement in
                   cultural leadership and grassroots advocacy. His life
@@ -183,7 +183,7 @@ const HeritagePage = () => {
             />
           </div>
         </div>
-        <p className="text-lg md:text-xl lg:hidden p-2">
+        <p className="text-base md:text-xl lg:hidden p-2">
           He is also an honorary member of the Bobamayegun Okunrin Asiwaju Akile
           Ijebu, reinforcing his continued involvement in cultural leadership
           and grassroots advocacy. His life represents a balance of heritage,
@@ -211,7 +211,7 @@ const HeritagePage = () => {
                 Fidipote Sister
               </p>
               <div className="flex flex-col items-center justify-center space-y-4   ">
-                <p className="text-lg lg:hidden">
+                <p className="text-base lg:hidden">
                   The Jagun family legacy extends through respected figures who
                   have contributed to leadership, governance, and cultural life
                   across Yorubaland.

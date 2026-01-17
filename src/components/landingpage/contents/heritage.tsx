@@ -34,13 +34,13 @@ const Heritage = () => {
             />
           </div>
           <div className="text-gray-700 leading-relaxed mb-5 items-end flex justify-center flex-col font-sans p-6">
-            <p className="lg:mb-6  mb-4 text-lg lg:text-2xl 2xl:text-2xl ">
-              Prince Otunba Adedotun Adebola Babatunde Jagun holds respected
-              traditional titles across Ogun State and remains actively engaged
-              in cultural leadership and grassroots advocacy within Ijebu land.
+            <p className="lg:mb-6  mb-4 text-base lg:text-2xl 2xl:text-2xl ">
+              Oma’ba Adedotun A. Olateju-Jagun holds respected traditional
+              titles across Ogun State and remains actively engaged in cultural
+              leadership and grassroots advocacy within Ijebu land.
             </p>
 
-            <p className="mb-10 text-lg  2xl:text-2xl lg:text-2xl  ">
+            <p className="mb-10 text-base  2xl:text-2xl lg:text-2xl  ">
               His titles includes the Otunba Shobaloju of Orile-Igboore, Otunba
               Apesinola of Oke-Eri, Ijebu Ode, Otun-Asiwaju of Ibiade, Ogun
               Waterside and others.
