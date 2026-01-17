@@ -58,7 +58,7 @@ export default function VenturesSection() {
             <h2 className="text-2xl md:text-4xl font-serif mb-4 text-center">
               Enterprise with Purpose
             </h2>
-            <p className="text-gray-700 leading-relaxed text-base p-2 lg:text-xl text-center ">
+            <p className="text-gray-700 leading-relaxed text-base p-2  md:text-2xl 2xl:text-2xltext-center ">
               Oma’ba Adedotun A. Olateju-Jagun approach to enterprise is guided
               by sustainability, responsibility, and long-term thinking. Each
               venture under his stewardship is designed to serve people, respect
@@ -88,14 +88,14 @@ export default function VenturesSection() {
               <h3 className="lg:text-5xl md:text-4xl text-2xl text-center 2xl:text-left font-serif mb-8">
                 Fidipote Food Market
               </h3>
-              <p className="text-gray-700 mb-4 text-base lg:text-lg">
+              <p className="text-gray-700 mb-4 text-base md:text-2xl 2xl:text-2xl">
                 Fidipote Food Market focuses on farming, food sourcing, and the
                 distribution of fresh agricultural produce to local and
                 international markets. The venture is built on a simple
                 principle: nutritious food should be accessible, affordable, and
                 sustainably produced.
               </p>
-              <p className="text-gray-700 mb-6 text-base lg:text-lg">
+              <p className="text-gray-700 mb-6 text-base md:text-2xl 2xl:text-2xl">
                 By working closely with farmers and streamlining supply chains,
                 Fidipote Food Market supports local agriculture while improving
                 food availability for households and communities.
@@ -141,14 +141,14 @@ export default function VenturesSection() {
             <h3 className="xl:text-5xl md:text-4xl text-3xl text-center 2xl:text-left font-serif mb-8">
               Fidipote Royalty Limited
             </h3>
-            <p className="text-gray-700 mb-4 text-base">
+            <p className="text-gray-700 mb-4 text-base md:text-2xl 2xl:text-2xl">
               Fidipote Royalties is the real estate and property development arm
               under Oma’ba Adedotun A. Olateju-Jagun  leadership. The venture focuses on
               land management, residential development, and community-oriented
               projects that respect cultural heritage while embracing modern
               planning standards.
             </p>
-            <p className="text-gray-700 mb-6 text-base md:text-lg">
+            <p className="text-gray-700 mb-6 text-base md:text-2xl 2xl:text-2xl">
               Through a long-term approach to value creation, Fidipote Royalties
               aligns traditional land ownership with sustainable real estate
               practices that benefit families, investors, and host communities.
@@ -188,14 +188,14 @@ export default function VenturesSection() {
               <h3 className="lg:text-5xl md:text-4xl text-3xl text-center 2xl:text-left font-serif mb-8">
                 Fidipote Royalty Limited
               </h3>
-              <p className="text-gray-700 mb-4 text-base">
+              <p className="text-gray-700 mb-4 text-base md:text-2xl 2xl:text-2xl">
                 Fidipote Royalties is the real estate and property development
                 arm under Oma’ba Adedotun A. Olateju-Jagun leadership. The venture focuses
                 on land management, residential development, and
                 community-oriented projects that respect cultural heritage while
                 embracing modern planning standards.
               </p>
-              <p className="text-gray-700 mb-6 text-base md:text-lg">
+              <p className="text-gray-700 mb-6 text-base md:text-2xl 2xl:text-2xl">
                 Through a long-term approach to value creation, Fidipote
                 Royalties aligns traditional land ownership with sustainable
                 real estate practices that benefit families, investors, and host
@@ -219,7 +219,7 @@ export default function VenturesSection() {
               <h2 className="text-2xl md:text-4xl text-center font-serif 2xl:text-4xl font-bold text-[#0F3D2E] mb-8 ">
                 Building Beyond Business
               </h2>
-              <p className="font-sans text-base lg:text-2xl leading-relaxed ">
+              <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed ">
                 Beyond commercial success, his ventures are structured to
                 support broader community development, strengthening food
                 security, encouraging responsible land use, and creating
@@ -239,13 +239,13 @@ export default function VenturesSection() {
                   <h2 className="text-2xl md:text-4xl text-center font-serif lg:text-4xl font-bold text-[#0F3D2E] mb-8  ">
                     Building Beyond Businesss
                   </h2>
-                  <p className="font-sans text-base lg:text-2xl leading-relaxed ">
+                  <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed ">
                     Beyond commercial success, his ventures are structured to
                     support broader community development, strengthening food
                     security, encouraging responsible land use, and creating
                     opportunities that endure across generations.
                   </p>
-                  <p className="font-sans text-base lg:text-2xl leading-relaxed order-2 lg:order-1 mt-4">
+                  <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed order-2 lg:order-1 mt-4">
                     As his ventures continue to grow, Oma’ba Adedotun A. Olateju-Jagun  remains
                     focused on innovation, sustainability, and service—ensuring
                     that enterprise remains a tool for empowerment and long-term
@@ -275,7 +275,7 @@ export default function VenturesSection() {
               </div>
             </motion.div>
 
-            <p className="font-sans text-base lg:text-2xl leading-relaxed order-2 lg:order-1 p-4 lg:hidden">
+            <p className="font-sans text-base md:text-2xl 2xl:text-2xlleading-relaxed order-2 lg:order-1 p-4 lg:hidden">
               As his ventures continue to grow, Oma’ba Adedotun A. Olateju-Jagun remains focused
               on innovation, sustainability, and service—ensuring that
               enterprise remains a tool for empowerment and long-term progress.

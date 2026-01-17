@@ -39,13 +39,13 @@ const AboutSection = () => {
                 About the Prince
               </h2>
 
-              <p className="font-sans leading-relaxed text-base mb-6 lg:text-2xl bg--300">
+              <p className="font-sans leading-relaxed mb-6 text-base md:text-2xl 2xl:text-2xl">
                Oma’ba Adedotun A. Olateju-Jagun is a member of
                 the Fidipote Ruling House of Ijebu Ode, Ogun State, with a
                 lifelong commitment to practical, people-centered development.
               </p>
 
-              <p className="font-sans leading-relaxed  mb-6 text-base lg:text-2xl bg--700">
+              <p className="font-sans leading-relaxed  mb-6 text-base md:text-2xl 2xl:text-2xl">
                 Guided by heritage and driven by responsibility, his work
                 focuses on building sustainable systems that improve access to
                 food, land, and opportunity—particularly for the elderly and the

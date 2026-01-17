@@ -60,7 +60,7 @@ const AboutPage = () => {
                 <h2 className="font-serif text-2xl text-center md:text-4xl 2xl:text-6xl font-bold text-[#0F3D2E] mb-8  ">
                   A Legacy in Motion
                 </h2>
-                <p className="font-sans text-base md:text-2xl 2xl:text-3xl leading-relaxed mb-8">
+                <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed mb-8">
                   Born in the United States and raised between Nigeria and the
                   U.S., Oma’ba Adedotun A. Olateju-Jagun embodies a global
                   perspective grounded in tradition. A proud member of the
@@ -101,7 +101,7 @@ const AboutPage = () => {
             <h2 className="font-serif text-center text-2xl md:text-4xl 2xl:text-6xl font-bold text-[#0F3D2E] mb-6 ">
               Early Life & Foundation
             </h2>
-            <p className="font-sans text-lg md:text-2xl 2xl:text-2xl leading-relaxed">
+            <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed">
               Oma’ba Adedotun A. Olateju-Jagun formative years were shaped by
               movement across cultures and communities. Educated at Saint
               Finbar’s College, Akoka, he developed discipline, leadership, and
@@ -152,7 +152,7 @@ const AboutPage = () => {
                 <h2 className="font-serif text-center text-2xl md:text-4xl font-bold mb-6 text-[#0F3D2E]">
                   Roots of Royal Heritage
                 </h2>
-                <p className="font-sans text-xl 2xl:text-2xl leading-relaxed lg:mb-0 mb-8">
+                <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed lg:mb-0 mb-8">
                   Oma’ba Adedotun A. Olateju-Jagun is a direct descendant of
                   Awujale Ademuyewo Fidipote, who reigned from 1850 to 1886, and
                   the great-grandson of Princess Adefowope Ademuyewo and ‘Dada’
@@ -177,7 +177,7 @@ const AboutPage = () => {
                 <h2 className="text-2xl text-center font-serif  md:text-4xl  2xl:text-5xl font-bold text-[#0F3D2E] mb-8 ">
                   Lineage of Leadership
                 </h2>
-                <p className="font-sans text-lg lg:text-2xl text-left leading-relaxed mb-8">
+                <p className="font-sans text-base md:text-2xl 2xl:text-2xltext-left leading-relaxed mb-8">
                   The Jagun family legacy extends beyond royalty into enterprise
                   and national contribution. His grandparents, Prince Rabiu
                   Adeniji Jagun—a prominent cocoa merchant—and Princess Alhaja
@@ -214,7 +214,7 @@ const AboutPage = () => {
               <h2 className="text-2xl text-center font-serif md:text-4xl 2xl:text-4xl font-bold text-[#0F3D2E] mb-8 ">
                 Values & Social Commitment
               </h2>
-              <p className="font-sans text-lg 2xl:text-2xl leading-relaxed ">
+              <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed ">
                 Guided by a humanitarian philosophy, Oma’ba Adedotun A.
                 Olateju-Jagun believes communities thrive through access to
                 education, skills, food, and opportunity. His work supports
@@ -256,7 +256,7 @@ const AboutPage = () => {
                   <h2 className="text-2xl  font-serif  md:text-4xl  2xl:text-4xl font-bold text-[#0F3D2E] mb-8 text-center">
                     Values & Social Commitment
                   </h2>
-                  <p className="font-sans text-lg 2xl:text-2xl leading-relaxed mb-8">
+                  <p className="font-sans text-base md:text-2xl 2xl:text-2xlleading-relaxed mb-8">
                     Guided by a humanitarian philosophy, Oma’ba Adedotun A.
                     Olateju-Jagun believes communities thrive through access to
                     education, skills, food, and opportunity. His work supports
@@ -268,7 +268,7 @@ const AboutPage = () => {
                 <h2 className="text-3xl text-center m font-serif md:text-4xl  2xl:text-4xlfont-bold text-[#0F3D2E] ">
                   Continuing The Legacy
                 </h2>
-                <p className="font-sans text-lg 2xl:text-2xl leading-relaxed order-2 lg:order-1">
+                <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed order-2 lg:order-1">
                   Oma’ba Adedotun A. Olateju-Jagun represents a balance of
                   heritage and progress. His journey reflects respect for
                   tradition, guided by a clear vision for sustainable

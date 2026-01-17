@@ -30,7 +30,7 @@ const Ventures = () => {
               <h1 className="text-2xl font-serif md:text-3xl lg:text-4xl 2xl:text-[55px] text-center text-[#0F3D2E]">
                 Fidipote Food Market
               </h1>
-              <p className="text-base md:text-2xl leading-relaxed font-sans">
+              <p className="text-base md:text-2xl 2xl:text-2xlleading-relaxed font-sans">
                 Fidipote Food Market is an agricultural and food distribution
                 venture focused on farming, sourcing, and supplying fresh farm
                 produce to local and international markets at accessible
@@ -66,7 +66,7 @@ const Ventures = () => {
               <h1 className="text-2xl md:text-4xl lg:text-5xl 2xl:text-[55px] font-serif text-center text-[#0F3D2E]">
                 Fidipote Royalty Limited
               </h1>
-              <p className="text-base sm:text-center font-sans  lg:text-2xl leading-relaxed lg:text-left">
+              <p className=" sm:text-center font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed lg:text-left">
                 Fidipote Royalty Limited is a real estate and land development
                 venture centered on responsible land stewardship, property
                 development, and long-term community value.

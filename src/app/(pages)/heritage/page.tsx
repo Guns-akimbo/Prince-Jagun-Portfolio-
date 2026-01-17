@@ -20,7 +20,7 @@ const HeritagePage = () => {
               A lineage of leadership, service, and civic responsibility.
             </p>
             <div className=" my-8 max-w-4xl ">
-              <p className="text-base lg:text-lg  text-emerald-50">
+              <p className="text-base md:text-2xl 2xl:text-2xl text-emerald-50">
                 Omo’ba Adedotun A. Olateju Jagun stands within a distinguished
                 Ijebu lineage defined by nobility, enterprise, and public
                 service. His heritage reflects generations of leadership shaped
@@ -49,7 +49,7 @@ const HeritagePage = () => {
               </h2>
               <div>
                 <div className="space-y-6 text-emerald-50 text-center lg:text-left">
-                  <p className="text-base md:text-lg leading-relaxed">
+                  <p className="text-base md:text-2xl 2xl:text-2xlleading-relaxed">
                     Omo’ba Adedotun A. Olateju Jagun is honored to be the
                     great-great-grandson of Awujale Ademuyewo Fidipote, who
                     reigned from 1850 to 1886, and the great-grandson of
@@ -60,7 +60,7 @@ const HeritagePage = () => {
                     Princess Alhaja Jagun.
                   </p>
 
-                  <p className="text-base md:text-lg leading-relaxed">
+                  <p className="text-base md:text-2xl 2xl:text-2xl leading-relaxed">
                     Prince Rabiu was a notable figure during Nigeria&#39;s
                     pre-independence era and a key supporter of the Tribune
                     newspaper under the leadership of Chief Obafemi Awolowo in
@@ -82,7 +82,7 @@ const HeritagePage = () => {
             </h3>
             <div className="mt-4 flex flex-col items-start">
               <div className="w-full ">
-                <p className="text-base md:text-2xl 2xl:text-lg mb-6 ">
+                <p className="text-base md:text-2xl 2xl:text-2xl mb-6 ">
                   A bonafide member of the Fidipote Ruling House, Omo’ba
                   Adedotun A. Olateju Jagun holds several respected traditional
                   titles reflecting leadership and service across communities
@@ -183,7 +183,7 @@ const HeritagePage = () => {
             />
           </div>
         </div>
-        <p className="text-base md:text-xl lg:hidden p-2">
+        <p className="text-base md:text-2xl 2xl:text-2xl lg:hidden p-2">
           He is also an honorary member of the Bobamayegun Okunrin Asiwaju Akile
           Ijebu, reinforcing his continued involvement in cultural leadership
           and grassroots advocacy. His life represents a balance of heritage,
@@ -193,7 +193,7 @@ const HeritagePage = () => {
       </div>
 
       <div className="animate-fade-slide-in delay-300">
-        <div className=" flex flex-col 2xl:flex-row  2xl:h-[95vh] w-full items-stretch justify-between   ">
+        <div className=" flex flex-col 2xl:flex-row  md:h-[100vh] 2xl:h-[95vh] w-full items-stretch justify-between   ">
           <h1 className="text-3xl font-serif font-bold text-teal-900 mb-6 text-center 2xl:hidden">
             Family Dignitaries
           </h1>
@@ -365,14 +365,14 @@ const HeritagePage = () => {
               <h1 className="text-4xl 2xl:text-5xl font-serif font-bold text-teal-900 mb-6 text-center">
                 Family Dignitaries
               </h1>
-              <p className="text-lg lg:px-8 max-w-5xl ">
+              <p className="text-base md:text-2xl 2xl:text-2xl lg:px-8 max-w-5xl ">
                 The Jagun family legacy extends through respected figures who
                 have contributed to leadership, governance, and cultural life
                 across Yorubaland.
               </p>
             </div>
             <div className="flex flex-col justify-center items-center mt-6">
-              <h1 className="text-2xl lg:text-2xl font-serif font-bold text-teal-900 text-center">
+              <h1 className="text-base md:text-2xl 2xl:text-2xl font-serif font-bold text-teal-900 text-center">
                 Notable Family Dignitaries
               </h1>
               <div className="w-full h-full p-8">
@@ -508,7 +508,7 @@ const HeritagePage = () => {
                 Heritage as Responsibility
               </h2>
 
-              <p className="text-base md:text-xl text-gray-700 leading-relaxed">
+              <p className="text-base md:text-2xl 2xl:text-2xl text-gray-700 leading-relaxed">
                 For Omo’ba Adedotun A. Olateju Jagun, heritage is not symbolic,
                 it is lived. It shapes how he leads, serves, and builds for
                 future generations. Through enterprise, cultural stewardship,
