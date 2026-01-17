@@ -18,7 +18,7 @@ const AboutPage = () => {
               className=" w-full lg:h-72 "
             >
               <div className="flex flex-col items-center h-full space-y-4 w-full p-6 mb-">
-                <h2 className="font-serif text-2xl md:text-5xl lg:text-7xl text-center font-bold  text-[#0F3D2E]">
+                <h2 className="font-serif text-3xl md:text-5xl lg:text-7xl text-center font-bold  text-[#0F3D2E]">
                   OMO’BA ADEDOTUN A. OLATEJU-JAGUN
                 </h2>
                 <p className="font-sans text-base md:text-2xl lg:text-3xl leading-relaxed md:mb-0 mb-4 text-center">
