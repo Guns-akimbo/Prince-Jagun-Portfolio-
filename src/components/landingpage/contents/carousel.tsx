@@ -78,8 +78,8 @@ const CarouselSection = () => {
             ))}
           </CarouselContent>
 
-          <CarouselPrevious className="hidden md:flex left-2 md:left-4 lg:-left-16 bg-[#0F3D2E] text-white border-none hover:bg-[#0F3D2E]/80 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed w-8 h-8 md:w-10 md:h-10" />
-          <CarouselNext className="hidden md:flex right-2 md:right-4 lg:-right-16 bg-[#0F3D2E] text-white border-none hover:bg-[#0F3D2E]/80 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed w-8 h-8 md:w-10 md:h-10" />
+          {/* <CarouselPrevious className="hidden md:flex left-2 md:left-4 lg:-left-16 bg-[#0F3D2E] text-white border-none hover:bg-[#0F3D2E]/80 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed w-8 h-8 md:w-10 md:h-10" /> */}
+          {/* <CarouselNext className="hidden md:flex right-2 md:right-4 lg:-right-16 bg-[#0F3D2E] text-white border-none hover:bg-[#0F3D2E]/80 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed w-8 h-8 md:w-10 md:h-10" /> */}
         </Carousel>
       </div>
     </section>

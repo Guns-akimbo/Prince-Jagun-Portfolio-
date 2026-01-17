@@ -3,10 +3,10 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <main className="relative w-full bg-white overflow-x-hidden pt-20 animate-fade-slide-in">
-      <div className="relative bg-[#0F3D2E]  min-h-[90vh] pt-20 pb-0 lg:pb-40 px-4 md:px-12 flex items-center  overflow-hidden">
+    <main className="relative w-full bg-white overflow-x-hidden 2xl:pt-20  pt-10 md:pt-0 animate-fade-slide-in">
+      <div className="relative bg-[#0F3D2E] md:h-[65vh] 2xl:min-h-[90vh] 2xl:pt-20 pt-16 md:pt-0 pb-0 2xl:pb-40 px-4 2xl:px-12 md:px-4 flex items-center  overflow-hidden ">
         {/* Background Decorative Rings (Large faint circles on sides) */}
-        <div className="absolute left-[-72%] lg:left-[-13%] top-[15%] lg:top-[20%] w-100 h-100 border-60  border-white/5 rounded-full pointer-events-none"></div>
+        <div className="absolute left-[-72%] md:left-[-25%] 2xl:left-[-13%] top-[15%] 2xl:top-[20%] w-100 h-100 border-60  border-white/5 rounded-full pointer-events-none"></div>
         <div
           className="
     absolute
@@ -22,15 +22,15 @@ const HeroSection = () => {
   "
         ></div>
 
-        <div className="max-w-380 mx-auto grid md:grid-cols-2 gap-12 items-center relative z-20 ">
-          <div className="text-white  text-center ">
-            <h1 className="text-4xl font-serif lg:text-7xl font-bold text-[#C9A050] mb-4 leading-tight text-center">
+        <div className="w-full  2xl:max-w-380 mx-auto grid md:grid-cols-2 gap-12 items-center relative z-20  ">
+          <div className="text-white  text-center  ">
+            <h1 className="text-4xl font-serif md:text-4xl lg:text-5xl 2xl:text-7xl font-bold text-[#C9A050] mb-4 leading-tight text-center">
               OMO’BA ADEDOTUN A. OLATEJU-JAGUN
             </h1>
-            <p className="text-lg  font-sans lg:text-3xl mb-10 font-light opacity-90 text-center">
+            <p className="text-lg  md:text-xl lg:text-2xl font-sans 2xl:text-3xl mb-10 font-light opacity-90 text-center">
               Omo’ba Afidipotemole ti Ijebu-Ode
             </p>
-            <p className="text-base font-sans lg:text-2xl leading-relaxed max-w-3xl opacity-80 text-center ">
+            <p className="text-base font-sans lg:text-xl 2xl:text-2xl leading-relaxed max-w-3xl opacity-80 text-center ">
               Community-focused entrepreneur, cultural leader, and advocate for
               sustainable development. Bridging heritage, enterprise, and impact
               through food security, responsible real estate, and community
@@ -38,8 +38,8 @@ const HeroSection = () => {
             </p>
           </div>
 
-          <div className="flex justify-center md:justify-end relative left-9  lg:left-0 bottom-0 lg:-bottom-24 z-50">
-            <div className="w-80 h-80 lg:w-160.5 lg:h-160.5 rounded-full border-4 border-white/30 overflow-hidden shadow-2xl z-30">
+          <div className="flex justify-center 2xl:justify-end relative left-9  2xl:left-0 bottom-0 2xl:-bottom-24 md:left-4 lg:left-2 lg:-bottom-40 md:-bottom-20 z-50">
+            <div className="w-80 h-80 md:w-96 md:h-96 lg:h-120 lg:w-120 2xl:w-160.5 2xl:h-160.5 rounded-full border-4 border-white/30 overflow-hidden shadow-2xl z-30">
               <Image
                 src="/images/prince.jpg"
                 alt="Prince Adedotun Olateju-Jagun"
