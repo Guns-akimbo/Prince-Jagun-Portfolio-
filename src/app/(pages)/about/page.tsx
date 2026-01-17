@@ -35,7 +35,7 @@ const AboutPage = () => {
               <div className="p-2 flex items-center justify-center h-72 ">
                 <div className="rounded flex items-center justify-center">
                   <p className="font-sans text-base md:text-2xl lg:text-2xl leading-relaxed mb-8">
-                    Oma’ba Adedotun A. Olateju-Jagun is a community-focused
+                    Omo’ba Adedotun A. Olateju-Jagun is a community-focused
                     entrepreneur and cultural leader deeply rooted in Ijebu Ode.
                     His work reflects a lifelong commitment to preserving
                     heritage while building practical, modern solutions that
@@ -62,7 +62,7 @@ const AboutPage = () => {
                 </h2>
                 <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed mb-8">
                   Born in the United States and raised between Nigeria and the
-                  U.S., Oma’ba Adedotun A. Olateju-Jagun embodies a global
+                  U.S., Omo’ba Adedotun A. Olateju-Jagun embodies a global
                   perspective grounded in tradition. A proud member of the
                   Fidipote Ruling House of Ijebu Ode, his identity is shaped by
                   lineage, responsibility, and service to community.
@@ -102,7 +102,7 @@ const AboutPage = () => {
               Early Life & Foundation
             </h2>
             <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed">
-              Oma’ba Adedotun A. Olateju-Jagun formative years were shaped by
+              Omo’ba Adedotun A. Olateju-Jagun formative years were shaped by
               movement across cultures and communities. Educated at Saint
               Finbar’s College, Akoka, he developed discipline, leadership, and
               a strong sense of service—values reinforced by his mother’s
@@ -153,7 +153,7 @@ const AboutPage = () => {
                   Roots of Royal Heritage
                 </h2>
                 <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed lg:mb-0 mb-8">
-                  Oma’ba Adedotun A. Olateju-Jagun is a direct descendant of
+                  Omo’ba Adedotun A. Olateju-Jagun is a direct descendant of
                   Awujale Ademuyewo Fidipote, who reigned from 1850 to 1886, and
                   the great-grandson of Princess Adefowope Ademuyewo and ‘Dada’
                   Olateju Jagun, the Generalissimo of Ijebuland. His lineage
@@ -215,7 +215,7 @@ const AboutPage = () => {
                 Values & Social Commitment
               </h2>
               <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed ">
-                Guided by a humanitarian philosophy, Oma’ba Adedotun A.
+                Guided by a humanitarian philosophy, Omo’ba Adedotun A.
                 Olateju-Jagun believes communities thrive through access to
                 education, skills, food, and opportunity. His work supports
                 youth development, agricultural skills, food security, clean
@@ -257,7 +257,7 @@ const AboutPage = () => {
                     Values & Social Commitment
                   </h2>
                   <p className="font-sans text-base md:text-2xl 2xl:text-2xlleading-relaxed mb-8">
-                    Guided by a humanitarian philosophy, Oma’ba Adedotun A.
+                    Guided by a humanitarian philosophy, Omo’ba Adedotun A.
                     Olateju-Jagun believes communities thrive through access to
                     education, skills, food, and opportunity. His work supports
                     youth development, agricultural skills, food security, clean
@@ -269,7 +269,7 @@ const AboutPage = () => {
                   Continuing The Legacy
                 </h2>
                 <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed order-2 lg:order-1">
-                  Oma’ba Adedotun A. Olateju-Jagun represents a balance of
+                  Omo’ba Adedotun A. Olateju-Jagun represents a balance of
                   heritage and progress. His journey reflects respect for
                   tradition, guided by a clear vision for sustainable
                   development and empowered communities.

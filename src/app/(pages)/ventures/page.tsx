@@ -38,7 +38,7 @@ export default function VenturesSection() {
             transition={{ duration: 0.6, delay: 0.4 }}
             className="text-base md:text-2xl text-white/80 w-full mx-auto"
           >
-            Oma’ba Adedotun A. Olateju-Jagun oversees ventures that address real
+            Omo’ba Adedotun A. Olateju-Jagun oversees ventures that address real
             needs—food security, land stewardship, and responsible
             development—while creating long-term value for communities and
             stakeholders.
@@ -59,7 +59,7 @@ export default function VenturesSection() {
               Enterprise with Purpose
             </h2>
             <p className="text-gray-700 leading-relaxed text-base p-2  md:text-2xl 2xl:text-2xltext-center ">
-              Oma’ba Adedotun A. Olateju-Jagun approach to enterprise is guided
+              Omo’ba Adedotun A. Olateju-Jagun approach to enterprise is guided
               by sustainability, responsibility, and long-term thinking. Each
               venture under his stewardship is designed to serve people, respect
               culture, and support economic growth—balancing tradition with
@@ -143,7 +143,7 @@ export default function VenturesSection() {
             </h3>
             <p className="text-gray-700 mb-4 text-base md:text-2xl 2xl:text-2xl">
               Fidipote Royalties is the real estate and property development arm
-              under Oma’ba Adedotun A. Olateju-Jagun  leadership. The venture focuses on
+              under Omo’ba Adedotun A. Olateju-Jagun  leadership. The venture focuses on
               land management, residential development, and community-oriented
               projects that respect cultural heritage while embracing modern
               planning standards.
@@ -190,7 +190,7 @@ export default function VenturesSection() {
               </h3>
               <p className="text-gray-700 mb-4 text-base md:text-2xl 2xl:text-2xl">
                 Fidipote Royalties is the real estate and property development
-                arm under Oma’ba Adedotun A. Olateju-Jagun leadership. The venture focuses
+                arm under Omo’ba Adedotun A. Olateju-Jagun leadership. The venture focuses
                 on land management, residential development, and
                 community-oriented projects that respect cultural heritage while
                 embracing modern planning standards.
@@ -246,7 +246,7 @@ export default function VenturesSection() {
                     opportunities that endure across generations.
                   </p>
                   <p className="font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed order-2 lg:order-1 mt-4">
-                    As his ventures continue to grow, Oma’ba Adedotun A. Olateju-Jagun  remains
+                    As his ventures continue to grow, Omo’ba Adedotun A. Olateju-Jagun  remains
                     focused on innovation, sustainability, and service—ensuring
                     that enterprise remains a tool for empowerment and long-term
                     progress.
@@ -276,7 +276,7 @@ export default function VenturesSection() {
             </motion.div>
 
             <p className="font-sans text-base md:text-2xl 2xl:text-2xlleading-relaxed order-2 lg:order-1 p-4 lg:hidden">
-              As his ventures continue to grow, Oma’ba Adedotun A. Olateju-Jagun remains focused
+              As his ventures continue to grow, Omo’ba Adedotun A. Olateju-Jagun remains focused
               on innovation, sustainability, and service—ensuring that
               enterprise remains a tool for empowerment and long-term progress.
             </p>

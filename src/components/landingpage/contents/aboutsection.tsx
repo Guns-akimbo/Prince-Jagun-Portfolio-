@@ -40,7 +40,7 @@ const AboutSection = () => {
               </h2>
 
               <p className="font-sans leading-relaxed mb-6 text-base md:text-2xl 2xl:text-2xl">
-               Oma’ba Adedotun A. Olateju-Jagun is a member of
+               Omo’ba Adedotun A. Olateju-Jagun is a member of
                 the Fidipote Ruling House of Ijebu Ode, Ogun State, with a
                 lifelong commitment to practical, people-centered development.
               </p>

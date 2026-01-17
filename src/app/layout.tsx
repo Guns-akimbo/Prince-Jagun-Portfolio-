@@ -22,13 +22,13 @@ const playfairDisplaySC = Playfair_Display_SC({
 export const metadata: Metadata = {
   title: " OMO’BA ADEDOTUN A. OLATEJU-JAGUN",
   description: "Welcome to my portfolio website.",
-  keywords: ["Adedotun Olateju-Jagun", "Oma’ba Adedotun A. Olateju-Jagun "],
+  keywords: ["Adedotun Olateju-Jagun", "Omo’ba Adedotun A. Olateju-Jagun "],
   authors: [{ name: "Adedotun Olateju-Jagun" }],
   openGraph: {
     title: "OMO’BA ADEDOTUN A. OLATEJU-JAGUN",
     description: "Welcome to my portfolio website.",
     // url: "https://your-portfolio-domain.com",
-    siteName: "Oma’ba Adedotun A. Olateju-Jagun  Portfolio",
+    siteName: "Omo’ba Adedotun A. Olateju-Jagun  Portfolio",
     // images: [
     //   {
     //     url: "https://your-portfolio-domain.com/og-image.jpg",

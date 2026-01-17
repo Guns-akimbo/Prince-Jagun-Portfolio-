@@ -35,7 +35,7 @@ const Heritage = () => {
           </div>
           <div className="text-gray-700 leading-relaxed mb-5 items-end flex justify-center flex-col font-sans p-6">
             <p className="lg:mb-6  mb-4 text-base lg:text-2xl 2xl:text-2xl ">
-              Oma’ba Adedotun A. Olateju-Jagun holds respected traditional
+              Omo’ba Adedotun A. Olateju-Jagun holds respected traditional
               titles across Ogun State and remains actively engaged in cultural
               leadership and grassroots advocacy within Ijebu land.
             </p>
