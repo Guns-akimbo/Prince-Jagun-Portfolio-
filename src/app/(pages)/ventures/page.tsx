@@ -167,7 +167,7 @@ export default function VenturesSection() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="order-2 lg:order-1 rounded-xl lg:h-170 2xl:h-180 lg:w-125.5 2xl:w-170 w-full h-140  "
+            className="order-2 lg:order-1 rounded-xl lg:h-170 2xl:h-180 lg:w-125.5 2xl:w-170 w-full md:h-120 h-100  "
           >
             <Image
               src="/images/frame6.jpg"
