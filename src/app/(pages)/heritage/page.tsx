@@ -112,12 +112,13 @@ const HeritagePage = () => {
                       Otun-Asiwaju of Ibiade, Ogun Waterside{" "}
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
-                      Conferred by His Royal Highness, Oba Bola Raimi (Laigbo 1).
-                      The Alarige of Ibiade
+                      Conferred by His Royal Highness, Oba Bola Raimi (Laigbo
+                      1). The Alarige of Ibiade
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
-                      promoting cultural heritage preservation and support with
-                      the economic growth of Ibiade
+                      Project Initiative: Promoting cultural heritage
+                      preservation and support with the economic growth of
+                      Ibiade
                     </li>
                   </span>
                 </div>
@@ -147,12 +148,12 @@ const HeritagePage = () => {
                       Otunba Olutoyese of Ijebu-Mushin
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
-                      Conferred by Obelu of Esure Kingdom Ijebu Mushin. His Royal
-                      Highness His Royal Highness Oba Abdulsamad Olalekan Kasali
-                      (Alarada III)
+                      Conferred by Obelu of Esure Kingdom Ijebu Mushin. His
+                      Royal Highness His Royal Highness Oba Abdulsamad Olalekan
+                      Kasali (Alarada III)
                     </li>
                     <li className="md:text-2xl 2xl:text-base">
-                      Project Initiative: preservation of cultural heritage and
+                      Project Initiative: Preservation of cultural heritage and
                       hosting an endowment fund for schools student and market
                       women.
                     </li>
@@ -232,11 +233,15 @@ const HeritagePage = () => {
                     <div className="pl-6 space-y-1 text-sm">
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Great Uncle</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Great Uncle
+                        </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Double Otunba of Iwo and Shagamu (Late)</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Double Otunba of Iwo and Shagamu (Late)
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -244,48 +249,66 @@ const HeritagePage = () => {
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-500">👑</span>
-                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">Dr. Shola Obada</h3>
+                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">
+                        Dr. Shola Obada
+                      </h3>
                     </div>
                     <div className="pl-6 space-y-1 text-sm">
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Mother’s cousin</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Mother’s cousin
+                        </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Erelu of Ijeshaland</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Erelu of Ijeshaland
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-500">👑</span>
-                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">Dr. Bisi Jagun</h3>
+                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">
+                        Dr. Bisi Jagun
+                      </h3>
                     </div>
                     <div className="pl-6 space-y-1 text-sm">
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Father’s half-sister</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Father’s half-sister
+                        </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Chief of Ikomodu</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Chief of Ikomodu
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-500">👑</span>
-                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">Dr. Mary Boyd</h3>
+                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">
+                        Dr. Mary Boyd
+                      </h3>
                     </div>
                     <div className="pl-6 space-y-1 text-sm">
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Younger sister</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Younger sister
+                        </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Yeye Maiyegun of Orile Igbon</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Yeye Maiyegun of Orile Igbon
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -299,14 +322,18 @@ const HeritagePage = () => {
                     <div className="pl-6 space-y-1 text-sm">
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Otunba Shobaloju of Orile Igbon</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Otunba Shobaloju of Orile Igbon
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-500">👑</span>
-                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">Chief Ayo Aremu</h3>
+                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">
+                        Chief Ayo Aremu
+                      </h3>
                     </div>
                     <div className="pl-6 space-y-1 text-sm">
                       <div className="flex items-center gap-2">
@@ -315,31 +342,43 @@ const HeritagePage = () => {
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Son of Chief Bayo Aremu</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Son of Chief Bayo Aremu
+                        </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Baamofin of Iwo</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Baamofin of Iwo
+                        </p>
                       </div>
                     </div>
                   </div>
                   <div className="space-y-2">
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-500">👑</span>
-                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">Justice Aremu</h3>
+                      <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">
+                        Justice Aremu
+                      </h3>
                     </div>
                     <div className="pl-6 space-y-1 text-sm">
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Great Uncle</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Great Uncle
+                        </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Junior brother to Chief Bayo Aremu</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Junior brother to Chief Bayo Aremu
+                        </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                        <p className="text-lg md:text-xl 2xl:text-lg">Baamofin of Ede (Late)</p>
+                        <p className="text-lg md:text-xl 2xl:text-lg">
+                          Baamofin of Ede (Late)
+                        </p>
                       </div>
                     </div>
                   </div>
