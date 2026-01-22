@@ -332,7 +332,7 @@ const HeritagePage = () => {
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-500">👑</span>
                       <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">
-                        Chief Ayo Aremu
+                       Gbadegesin Adegbolagun
                       </h3>
                     </div>
                     <div className="pl-6 space-y-1 text-sm">
@@ -343,13 +343,13 @@ const HeritagePage = () => {
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
                         <p className="text-lg md:text-xl 2xl:text-lg">
-                          Son of Chief Bayo Aremu
+                         Owa of Igbajo
                         </p>
                       </div>
                       <div className="flex items-center gap-2">
                         <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
                         <p className="text-lg md:text-xl 2xl:text-lg">
-                          Baamofin of Iwo
+                         Erinmo Ilesha Maternal Late Great Uncle
                         </p>
                       </div>
                     </div>
@@ -451,10 +451,12 @@ const HeritagePage = () => {
                     </div>
                   </div>
                 </div>
-                <div className="space-y-2">
+                <div className="space-y-1">
                   <div className="flex items-center gap-2">
                     <span className="text-yellow-500">👑</span>
-                    <h3 className="font-semibold text-lg">Chief Ayo Aremu</h3>
+                    <h3 className="font-semibold text-lg">
+                      Gbadegesin Adegbolagun
+                    </h3>
                   </div>
                   <div className="pl-6 space-y-1 text-sm">
                     <div className="flex items-center gap-2">
@@ -463,11 +465,11 @@ const HeritagePage = () => {
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                      <p>Son of Chief Bayo Aremu</p>
+                      <p>Owa of Igbajo</p>
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="h-2 w-2 rounded-full bg-[#0F3D2E]" />
-                      <p>Baamofin of Iwo</p>
+                      <p>Erinmo Ilesha Maternal Late Great Uncle</p>
                     </div>
                   </div>
                 </div>
