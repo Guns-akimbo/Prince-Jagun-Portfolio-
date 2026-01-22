@@ -332,7 +332,7 @@ const HeritagePage = () => {
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-500">👑</span>
                       <h3 className="font-semibold  text-lg md:text-2xl 2xl:text-lg">
-                       Gbadegesin Adegbolagun
+                      King Gbadegesin Adegbolagun
                       </h3>
                     </div>
                     <div className="pl-6 space-y-1 text-sm">
@@ -455,7 +455,7 @@ const HeritagePage = () => {
                   <div className="flex items-center gap-2">
                     <span className="text-yellow-500">👑</span>
                     <h3 className="font-semibold text-lg">
-                      Gbadegesin Adegbolagun
+                      King Gbadegesin Adegbolagun
                     </h3>
                   </div>
                   <div className="pl-6 space-y-1 text-sm">
