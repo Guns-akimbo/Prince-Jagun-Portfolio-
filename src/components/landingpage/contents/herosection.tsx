@@ -4,7 +4,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <main className="relative w-full bg-white overflow-x-hidden 2xl:pt-20  pt-10 md:pt-0 animate-fade-slide-in">
-      <div className="relative bg-[#0F3D2E] md:h-[65vh] 2xl:min-h-[90vh] 2xl:pt-20 pt-16 md:pt-0 pb-0 2xl:pb-40 px-4 2xl:px-12 md:px-4 flex items-center  overflow-hidden ">
+      <div className="relative bg-[#0F3D2E] md:h-[65vh] lg:h-[100vh] 2xl:min-h-[90vh] 2xl:pt-20 pt-16 md:pt-0 pb-0 2xl:pb-40 px-4 2xl:px-12 md:px-4 flex items-center  overflow-hidden ">
         {/* Background Decorative Rings (Large faint circles on sides) */}
         <div className="absolute left-[-72%] md:left-[-25%] 2xl:left-[-13%] top-[15%] 2xl:top-[20%] w-100 h-100 border-60  border-white/5 rounded-full pointer-events-none"></div>
         <div
