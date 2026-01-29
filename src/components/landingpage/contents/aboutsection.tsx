@@ -7,7 +7,7 @@ const AboutSection = () => {
     <section className="relative">
       <div className="bg-white relative overflow-x-hidden">
         <div className="mx-auto px-6 md:py-0 py-16 2xl:py-24">
-          <div className="grid 2xl:grid-cols-2 gap-12 items-center justify-center ml-3 ">
+          <div className="grid xl:grid-cols-2 gap-12 items-center justify-center ml-3 ">
             <motion.div
               initial={{ opacity: 0, x: -50 }}
               whileInView={{ opacity: 1, x: 0 }}
@@ -39,13 +39,13 @@ const AboutSection = () => {
                 About the Prince
               </h2>
 
-              <p className="font-sans leading-relaxed mb-6 text-base md:text-2xl 2xl:text-2xl">
+              <p className="font-sans leading-relaxed mb-6 text-base md:text-xl 2xl:text-xl">
                Omo’ba Adedotun A. Olateju-Jagun is a member of
                 the Fidipote Ruling House of Ijebu Ode, Ogun State, with a
                 lifelong commitment to practical, people-centered development.
               </p>
 
-              <p className="font-sans leading-relaxed  mb-6 text-base md:text-2xl 2xl:text-2xl">
+              <p className="font-sans leading-relaxed  mb-6 text-base md:text-xl 2xl:text-xl">
                 Guided by heritage and driven by responsibility, his work
                 focuses on building sustainable systems that improve access to
                 food, land, and opportunity—particularly for the elderly and the

@@ -11,7 +11,7 @@ const Ventures = () => {
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.6 }}
           className="text-3xl md:text-5xl 2xl:text-6xl font-serif font-bold text-[#0F3D2E] text-center mb-8"
         >
@@ -21,16 +21,16 @@ const Ventures = () => {
         <motion.section
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
-          viewport={{ once: false, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.3 }}
           transition={{ duration: 0.8 }}
-          className="w-full flex flex-col 2xl:flex-row justify-between items-center lg:mb-10 2xl:mb-0"
+          className="w-full flex flex-col xl:flex-row justify-between items-center lg:mb-10 2xl:mb-0  "
         >
-          <div className="w-full 2xl:w-1/2 flex flex-col justify-center items-center mb-8 lg:mb-0 ">
-            <div className="space-y-6 2xl:space-y-10 md:px-0 px-4 max-w-3xl">
+          <div className="w-full xl:w-1/2 flex flex-col justify-center items-center mb-8 lg:mb-0 ">
+            <div className="space-y-6 xl:space-y-10 md:px-0 px-4 max-w-3xl">
               <h1 className="text-2xl font-serif md:text-3xl lg:text-4xl 2xl:text-[55px] text-center text-[#0F3D2E]">
                 Fidipote Food Market
               </h1>
-              <p className="text-base md:text-2xl 2xl:text-2xlleading-relaxed font-sans">
+              <p className="text-base md:text-xl 2xl:text-xl leading-relaxed font-sans">
                 Fidipote Food Market is an agricultural and food distribution
                 venture focused on farming, sourcing, and supplying fresh farm
                 produce to local and international markets at accessible
@@ -38,12 +38,12 @@ const Ventures = () => {
               </p>
             </div>
           </div>
-          <div className="w-full 2xl:w-1/2 flex justify-end items-center p-4 2xl:p-8  mb-12 lg:mb-10 2xl:mb-0">
-            <div className="w-full md:h-180 lg:h-220 2xl:h-140 2xl:max-w-none 2xl:w-124.25 rounded-md">
+          <div className="w-full xl:w-1/2 flex justify-end items-center p-4 2xl:p-8  mb-12 lg:mb-10 2xl:mb-0 ">
+            <div className="w-full md:h-180 lg:h-220 xl:h-140 xl:max-w-none xl:w-124.25 rounded-md">
               <Image
                 src="/images/fidipoteFood.png"
                 alt="Fidipote Food Market"
-                className="w-full h-full 2xl:h-133.5 object-cover rounded-md"
+                className="w-full h-full xl:h-133.5 object-cover rounded-md"
                 width={497}
                 height={534}
               />
@@ -59,14 +59,14 @@ const Ventures = () => {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: false, amount: 0.3 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="w-full flex flex-col 2xl:flex-row-reverse justify-between items-center md:mb-12 2xl:mb-0  "
+          className="w-full flex flex-col xl:flex-row-reverse justify-between items-center md:mb-12 xl:mb-0 bg-red-  "
         >
-          <div className="w-full 2xl:w-1/2 flex flex-col lg:mb-8 2xl:mb-0 ">
+          <div className="w-full xl:w-1/2 flex flex-col lg:mb-8 xl:mb-0 ">
             <div className="space-y-6  2xl:space-y-10 2xl:px-4 md:px-2 max-w-4xl">
               <h1 className="text-2xl md:text-4xl lg:text-5xl 2xl:text-[55px] font-serif text-center text-[#0F3D2E]">
                 Fidipote Royalty Limited
               </h1>
-              <p className=" sm:text-center font-sans text-base md:text-2xl 2xl:text-2xl leading-relaxed lg:text-left">
+              <p className=" sm:text-center font-sans text-base md:text-xl 2xl:text-xl leading-relaxed lg:text-left">
                 Fidipote Royalty Limited is a real estate and land development
                 venture centered on responsible land stewardship, property
                 development, and long-term community value.
@@ -100,12 +100,12 @@ const Ventures = () => {
               </motion.div>
             </div>
           </div>
-          <div className="w-full 2xl:w-1/2 flex 2xl:justify-start 2xl:items-start justify-center items-center  mb-12 lg:mb-0 ">
-            <div className="w-full md:h-180 2xl:max-w-none lg:h-190 lg:w-220 2xl:w-134.5 rounded-md">
+          <div className="w-full xl:w-1/2 flex xl:justify-start xl:items-start justify-center items-center  mb-12 lg:mb-0 ">
+            <div className="w-full md:h-180 xl:max-w-none lg:h-190 lg:w-220 xl:w-134.5 rounded-md">
               <Image
                 src="/images/fidiroyal.png"
                 alt="Fidipote Royalty Limited"
-                className="w-full h-full 2xl:h-133.5 object-cover rounded-md"
+                className="w-full h-full xl:h-133.5 object-cover rounded-md"
                 width={497}
                 height={534}
               />
