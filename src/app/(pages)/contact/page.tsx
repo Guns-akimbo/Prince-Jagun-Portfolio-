@@ -40,7 +40,7 @@ const Contact = () => {
   return (
     <main className="w-full text-[#143b2f] overflow-x-hidden">
       <Header />
-      <section className="relative bg-[#123f35] text-white h-100 lg:h-135 flex flex-col justify-center items-center px-6 mb-8">
+      <section className="relative bg-[#123f35] text-white h-100 lg:h-135 xl:h-130 flex flex-col justify-center items-center px-6 mb-8">
         <div className="absolute inset-0 opacity-14">
           <Image
             src="/images/contact-bg.jpg"
@@ -59,7 +59,7 @@ const Contact = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: false, amount: 0.3 }}
             transition={{ duration: 0.6 }}
-            className="text-3xl 2xl:text-6xl font-serif text-white"
+            className="text-3xl xl:text-6xl font-serif text-white"
           >
             OMO’BA ADEDOTUN A. OLATEJU-JAGUN
           </motion.h2>
@@ -78,13 +78,12 @@ const Contact = () => {
         </div>
       </section>
 
-      <div>
+      <div className="">
         <motion.section
           initial={{ opacity: 0.1, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.1 }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className=""
         >
           <div
             className="
@@ -212,7 +211,7 @@ const Contact = () => {
         </motion.section>
       </div>
 
-      <div className="max-w-[90%] mx-auto mt-10 flex flex-col gap-3 mb-6">
+      <div className="max-w-[97%] mx-auto mt-10 flex flex-col gap-3 mb-6 ">
         <p className="text-xl">Socials</p>
         <div className="flex items-center gap-6">
           <a
